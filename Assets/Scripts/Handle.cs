@@ -45,12 +45,12 @@ public class Handle : MonoBehaviour, IInteractable
                 isOpen = false;
             }
         }
+        
     }
 
     bool AnimatorIsPlaying()
     {
-        return animator.GetCurrentAnimatorStateInfo(0).length >
-               animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
+        return animator.GetCurrentAnimatorStateInfo(0).length > animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
     }
 
     private void OnCollisionEnter(Collision collision)

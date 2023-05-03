@@ -6,7 +6,7 @@ public class InteractRadius : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Grabbable interactObject= other.GetComponent<Grabbable>();
+        Grabbable interactObject = other.GetComponent<Grabbable>();
 
         if(interactObject != null)
         {
