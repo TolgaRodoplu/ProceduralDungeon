@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class GrabAnchor : MonoBehaviour
 {
-    [SerializeField] private Transform playerCamera;
+    public bool isInside = false;
 
-    private float zPositionOffset;
-
-    private void Awake()
+    private void OnTriggerEnter(Collider other)
     {
-        zPositionOffset = transform.localPosition.z - playerCamera.localPosition.z;
+        if (other.gameObject.layer != LayerMask.GetMask("Interact")) 
+        {
+            isInside = true;
+        }
+        
     }
 
-    private void Update()
+    private void OnTriggerExit(Collider other)
     {
-        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, zPositionOffset);
+        isInside = false;
     }
+
 }

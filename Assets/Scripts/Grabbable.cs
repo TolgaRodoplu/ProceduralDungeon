@@ -42,11 +42,15 @@ public class Grabbable : MonoBehaviour, IInteractable
     
     public void Update() 
     {
-        if (Input.GetKeyUp(KeyCode.Mouse0) )
+        if (grabbed)
         {
-            grabbed = false;
-            rb.useGravity = true;
-            grabAnchor = null;
+            if (Input.GetKeyUp(KeyCode.Mouse0) || Vector3.Distance(grabAnchor.transform.position, transform.position) > maxDistance)
+            {
+                Debug.Log("let Go");
+                grabbed = false;
+                rb.useGravity = true;
+                grabAnchor = null;
+            }
         }
     }
 

@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class EventSystem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static EventSystem instance;
+
+    public event EventHandler<int> puzzleTriggered;
+
+    void Awake()
     {
-        
+        if (instance == null)
+            instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TriggerPuzzle(int puzzleID)
     {
-        
+        puzzleTriggered?.Invoke(this, puzzleID);
     }
 }

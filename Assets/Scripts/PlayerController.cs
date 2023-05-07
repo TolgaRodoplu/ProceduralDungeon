@@ -29,13 +29,13 @@ public class PlayerController : MonoBehaviour
     private Vector2 currentDirVelocity = Vector2.zero;
 
     [Header("Jumping Parameters")]
-    [SerializeField] private float gravity = -13.0f;
+    [SerializeField] private float gravity = -100f;
     private float velocityY = 0.0f;
 
     [Header("Looking Parameters")]
     [SerializeField] private float mouseSensitivity = 3.5f;
     [SerializeField][Range(0.0f, 0.5f)] private float mouseSmoothTime = 0.03f;
-    [SerializeField][Range(1.0f, 2.0f)] private float interractDistance = 5f;
+    [SerializeField][Range(0f, 5f)] private float interractDistance = 100f;
     private float xRotation = 0.0f;
     private Vector2 currentMouseDelta = Vector2.zero;
     private Vector2 currentMouseDeltaVelocity = Vector2.zero;
@@ -64,11 +64,12 @@ public class PlayerController : MonoBehaviour
         var ray = new Ray(playerCamera.position, playerCamera.forward);
         RaycastHit hit;
 
-        Debug.DrawRay(playerCamera.position, playerCamera.transform.TransformDirection(playerCamera.forward));
+        
 
         if (Physics.Raycast(ray, out hit, interractDistance, LayerMask.GetMask("Interact")))
         {
-            Debug.Log(hit.transform.name);
+            Debug.DrawLine(ray.origin, hit.point);
+            //Debug.Log(hit.transform.name);
             IInteractable interactable = hit.transform.GetComponent<IInteractable>();
 
             if (interactable != null)
@@ -90,7 +91,7 @@ public class PlayerController : MonoBehaviour
         currentMouseDelta = Vector2.SmoothDamp(currentMouseDelta, targetMouseDelta, ref currentMouseDeltaVelocity, mouseSmoothTime);
 
         xRotation -= currentMouseDelta.y * mouseSensitivity;
-        xRotation = Mathf.Clamp(xRotation, -80f, 80f);
+        xRotation = Mathf.Clamp(xRotation, -50f, 60f);
 
         playerCamera.localEulerAngles = Vector3.right * xRotation;
 
