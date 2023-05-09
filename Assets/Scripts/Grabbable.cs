@@ -35,7 +35,6 @@ public class Grabbable : MonoBehaviour, IInteractable
 
         xRot = transform.rotation.eulerAngles.x;
 
-        Debug.Log("grabbed");
         grabbed = true;
         rb.useGravity = false;
     }
@@ -46,7 +45,6 @@ public class Grabbable : MonoBehaviour, IInteractable
         {
             if (Input.GetKeyUp(KeyCode.Mouse0) || Vector3.Distance(grabAnchor.transform.position, transform.position) > maxDistance)
             {
-                Debug.Log("let Go");
                 grabbed = false;
                 rb.useGravity = true;
                 grabAnchor = null;

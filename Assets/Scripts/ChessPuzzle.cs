@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ChessPuzzle : MonoBehaviour
+public class ChessPuzzle : Puzzle
 {
-    [SerializeField] private int puzzleID;
 
     [SerializeField] private Transform[] pieceOrder;
 
@@ -15,9 +14,8 @@ public class ChessPuzzle : MonoBehaviour
     
     int moveCounter = 0;
 
-    void Start()
+    protected override void Start()
     {
-        
         EventSystem.instance.puzzleTriggered += Trigger;
         currentPiece = pieceOrder[moveCounter];
         currentSquare = squareOrder[moveCounter];
@@ -28,21 +26,31 @@ public class ChessPuzzle : MonoBehaviour
         trigger.keyID = this.puzzleID;
     }
 
-    private void Trigger(object sender, int puzzleID)
+    protected override void Trigger(object sender, int puzzleID)
     {
         if(this.puzzleID == puzzleID) 
         {
-            Debug.Log("triggered");
             Destroy(currentPiece.GetComponent<Key>());
             Destroy(currentPiece.GetComponent<PuzzleTrigger>());
             moveCounter++;
-            currentPiece = pieceOrder[moveCounter];
-            currentSquare = squareOrder[moveCounter];
-            var key = currentPiece.gameObject.AddComponent(typeof(Key)) as Key;
-            var trigger = currentSquare.gameObject.AddComponent(typeof(PuzzleTrigger)) as PuzzleTrigger;
-            key.keyID = this.puzzleID;
-            trigger.puzzleID = this.puzzleID;
-            trigger.keyID = this.puzzleID;
+            if(moveCounter == squareOrder.Length)
+            {
+                Destroy(currentPiece.GetComponent<Key>());
+                Destroy(currentPiece.GetComponent<PuzzleTrigger>());
+                AnimateObjects();
+            }
+            else
+            {
+                currentPiece = pieceOrder[moveCounter];
+                currentSquare = squareOrder[moveCounter];
+                Debug.Log(currentPiece.name + "    " + currentSquare.name);
+                var key = currentPiece.gameObject.AddComponent(typeof(Key)) as Key;
+                var trigger = currentSquare.gameObject.AddComponent(typeof(PuzzleTrigger)) as PuzzleTrigger;
+                key.keyID = this.puzzleID;
+                trigger.puzzleID = this.puzzleID;
+                trigger.keyID = this.puzzleID;
+            }
+           
         }
         
     }

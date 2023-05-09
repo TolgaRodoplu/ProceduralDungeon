@@ -8,7 +8,7 @@ public class EventSystem : MonoBehaviour
     public static EventSystem instance;
 
     public event EventHandler<int> puzzleTriggered;
-
+    public event EventHandler<int[]> animationTriggered;
     void Awake()
     {
         if (instance == null)
@@ -18,5 +18,10 @@ public class EventSystem : MonoBehaviour
     public void TriggerPuzzle(int puzzleID)
     {
         puzzleTriggered?.Invoke(this, puzzleID);
+    }
+    
+    public void TriggerAnimation(int[] animationID)
+    {
+        animationTriggered?.Invoke(this, animationID);
     }
 }
