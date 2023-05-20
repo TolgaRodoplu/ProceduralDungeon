@@ -11,6 +11,8 @@ public class ChessPuzzle : Puzzle
     [SerializeField] private Transform[] squareOrder;
 
     private Transform currentSquare, currentPiece;
+
+    [SerializeField] private Transform pieces;
     
     int moveCounter = 0;
 
@@ -33,11 +35,22 @@ public class ChessPuzzle : Puzzle
             Destroy(currentPiece.GetComponent<Key>());
             Destroy(currentPiece.GetComponent<PuzzleTrigger>());
             moveCounter++;
+
             if(moveCounter == squareOrder.Length)
             {
                 Destroy(currentPiece.GetComponent<Key>());
                 Destroy(currentPiece.GetComponent<PuzzleTrigger>());
                 AnimateObjects();
+
+                GameObject[] allPieces = new GameObject[pieces.childCount];
+
+                for (int i = 0; i < pieces.childCount; i++)
+                {
+                    allPieces[i].GetComponent<Rigidbody>().useGravity = false;
+                    allPieces[i].GetComponent<Rigidbody>().AddForce(Vector3.up);
+
+                }
+
             }
             else
             {

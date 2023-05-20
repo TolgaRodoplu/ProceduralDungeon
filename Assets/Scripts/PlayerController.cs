@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    private bool active = true;
+    public bool active = true;
     [SerializeField] private Transform playerCamera = null;
     private CharacterController controller = null;
 
@@ -53,10 +53,10 @@ public class PlayerController : MonoBehaviour
         {
             InterractWithObject();
             MouseLook();
-            Move();
         }
 
 
+        Move();
     }
 
     private void InterractWithObject()
