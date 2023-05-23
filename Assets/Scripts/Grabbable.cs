@@ -7,7 +7,7 @@ public class Grabbable : MonoBehaviour, IInteractable
 {
     private Transform grabAnchor;
     private bool grabbed = false;
-    private float maxDistance = 1f;
+    private float maxDistance = 2f;
     private float xRot;
     private Rigidbody rb;
     string _type;
@@ -28,6 +28,9 @@ public class Grabbable : MonoBehaviour, IInteractable
 
     public void Interact(Transform interactor)
     {
+        if (rb.isKinematic)
+            rb.isKinematic = false;
+
         grabAnchor = interactor.Find("Main Camera").Find("GrabAnchor");
 
         if (grabAnchor == null)
@@ -58,12 +61,13 @@ public class Grabbable : MonoBehaviour, IInteractable
         if (grabbed)
         {
             Vector3 DirectionToPoint = grabAnchor.position - transform.position;
+
             float DistanceToPoint = DirectionToPoint.magnitude;
 
-            rb.velocity = DirectionToPoint * 100f * DistanceToPoint;
+            rb.velocity = DirectionToPoint * 50f * DistanceToPoint;
 
-            transform.rotation = Quaternion.Euler(xRot,grabAnchor.rotation.eulerAngles.y, grabAnchor.rotation.eulerAngles.z);
-            
+            transform.rotation = Quaternion.Euler(xRot, grabAnchor.rotation.eulerAngles.y, grabAnchor.rotation.eulerAngles.z);
+
             rb.angularVelocity = Vector3.zero;
         }
 

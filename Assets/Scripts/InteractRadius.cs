@@ -23,4 +23,6 @@ public class InteractRadius : MonoBehaviour
             interactObject.enabled = false;
         }
     }
+
+
 }

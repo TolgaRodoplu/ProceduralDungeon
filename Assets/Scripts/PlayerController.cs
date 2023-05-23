@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, interractDistance, LayerMask.GetMask("Interact")))
         {
-            Debug.DrawLine(ray.origin, hit.point);
+            Debug.DrawLine(ray.origin, hit.point, Color.red);
             //Debug.Log(hit.transform.name);
             IInteractable interactable = hit.transform.GetComponent<IInteractable>();
 

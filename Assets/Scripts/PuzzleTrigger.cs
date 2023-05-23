@@ -6,7 +6,7 @@ public class PuzzleTrigger : MonoBehaviour
 {
     public int puzzleID;
     private bool isTriggered = false;
-    [SerializeField] public int keyID;
+    [SerializeField] public float keyID;
 
     private void OnTriggerEnter(Collider other)
     {
