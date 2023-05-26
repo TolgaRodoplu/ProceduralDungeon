@@ -74,15 +74,12 @@ public class PlayerController : MonoBehaviour
 
             if (interactable != null)
             {
-
                 if (Input.GetKeyDown(interractKey))
                 {
                     interactable.Interact(this.transform);
                 }
-
             }
         }
-        
     }
     private void MouseLook()
     {
