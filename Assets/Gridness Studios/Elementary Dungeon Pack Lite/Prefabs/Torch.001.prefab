@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 935806930815462672}
   - component: {fileID: 8076866308431420103}
   - component: {fileID: 7769894917561011699}
-  - component: {fileID: 1401081672180910576}
+  - component: {fileID: 570219643139880363}
   m_Layer: 0
   m_Name: Torch.001
   m_TagString: Untagged
@@ -86,8 +86,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1401081672180910576
-MeshCollider:
+--- !u!65 &570219643139880363
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -96,10 +96,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1648318550784961951, guid: edcc86a903182d0429c0d7b2c727fec0, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.44147888, y: 0.7591774, z: 0.48212}
+  m_Center: {x: 0.000011578202, y: -0.10652688, z: 0.25887233}
 --- !u!1 &8712300021360254310
 GameObject:
   m_ObjectHideFlags: 0
