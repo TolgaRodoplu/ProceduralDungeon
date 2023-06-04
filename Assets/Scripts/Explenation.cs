@@ -1,17 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Explenation : MonoBehaviour
+public class Explenation : Subtitle
 {
-
-    void Start()
+    [SerializeField] private int index;
+    public override void Set()
     {
-        
-    }
-
-    void Update()
-    {
-        
+        text = ReadFile.ReaLine("explenation", index - 1);
     }
 }

@@ -72,6 +72,16 @@ public class PlayerController : MonoBehaviour
             //Debug.Log(hit.transform.name);
             IInteractable interactable = hit.transform.GetComponent<IInteractable>();
 
+            Subtitle explenation = hit.transform.transform.GetComponent<Subtitle>();  
+
+            if(explenation != null)
+            {
+                UI.instance.SetSubtitle(explenation.text);
+                UI.instance.SubtitleToggle(true);
+            }
+            else
+                UI.instance.SubtitleToggle(false);
+
             if (interactable != null)
             {
                 if (Input.GetKeyDown(interractKey))
@@ -79,6 +89,10 @@ public class PlayerController : MonoBehaviour
                     interactable.Interact(this.transform);
                 }
             }
+        }
+        else
+        {
+            UI.instance.SubtitleToggle(false);
         }
     }
     private void MouseLook()
