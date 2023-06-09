@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -5031412554516155751}
   - component: {fileID: -662113420770737931}
   - component: {fileID: 5656337911903881152}
+  - component: {fileID: -2184750581293941027}
   m_Layer: 6
   m_Name: Black Queen
   m_TagString: Untagged
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184594}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b58080d61f0384fb736fdd81bbf79f, type: 3}
   m_Name: 
@@ -141,3 +142,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8686496, y: 3.0282686, z: 0.9041327}
   m_Center: {x: 0.00000037252903, y: 1.3419031, z: 0.0018303655}
+--- !u!114 &-2184750581293941027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a24daf888a5a44abc103c278040322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: '***'

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2983428279879346414}
   - component: {fileID: 4286446849468442621}
   - component: {fileID: 4076851377521547656}
+  - component: {fileID: -2765332776118917795}
   m_Layer: 6
   m_Name: White Bishop
   m_TagString: Untagged
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190264}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b58080d61f0384fb736fdd81bbf79f, type: 3}
   m_Name: 
@@ -141,3 +142,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.79445064, y: 2.5846944, z: 0.78478277}
   m_Center: {x: -0.007974356, y: 1.120116, z: -0.0058171153}
+--- !u!114 &-2765332776118917795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a24daf888a5a44abc103c278040322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: '***'

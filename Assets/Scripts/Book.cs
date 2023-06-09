@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Book : Subtitle
 {
-    private int bookCount = 97;
+    private int bookCount = 96;
     [SerializeField] private bool isKey = false;
     public override void Set()
     {

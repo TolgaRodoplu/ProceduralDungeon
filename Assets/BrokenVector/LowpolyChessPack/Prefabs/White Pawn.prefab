@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8650136698852846282}
   - component: {fileID: 3543814156575966782}
   - component: {fileID: 1213655572307144171}
+  - component: {fileID: -8056498271505182850}
   m_Layer: 6
   m_Name: White Pawn
   m_TagString: Untagged
@@ -110,7 +111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104878}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b58080d61f0384fb736fdd81bbf79f, type: 3}
   m_Name: 
@@ -141,3 +142,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.54952013, y: 1.607325, z: 0.5844952}
   m_Center: {x: -0.005586054, y: 0.8036625, z: -0.007045772}
+--- !u!114 &-8056498271505182850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a24daf888a5a44abc103c278040322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: '***'

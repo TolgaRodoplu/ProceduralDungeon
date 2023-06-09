@@ -7,21 +7,14 @@ public class Grabbable : MonoBehaviour, IInteractable
 {
     private Transform grabAnchor;
     private bool grabbed = false;
-    private float maxDistance = 2f;
+    private float maxDistance = 1f;
     private float xRot;
     private Rigidbody rb;
-    string _type;
 
-    public string type
-    {
-        get => _type;
-        set => _type = value;
-    }
+   
 
     void Awake()
     {
-        this.enabled = false;
-        type = "Pick Up";
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
     }
@@ -40,6 +33,15 @@ public class Grabbable : MonoBehaviour, IInteractable
 
         grabbed = true;
         rb.useGravity = false;
+
+        
+    }
+
+    public void Uninteract()
+    {
+        grabbed = false;
+        rb.useGravity = true;
+        grabAnchor = null;
     }
     
     public void Update() 
@@ -48,9 +50,7 @@ public class Grabbable : MonoBehaviour, IInteractable
         {
             if (Input.GetKeyUp(KeyCode.Mouse0) || Vector3.Distance(grabAnchor.transform.position, transform.position) > maxDistance)
             {
-                grabbed = false;
-                rb.useGravity = true;
-                grabAnchor = null;
+                Uninteract();
             }
         }
     }
@@ -75,10 +75,13 @@ public class Grabbable : MonoBehaviour, IInteractable
 
     private void OnDestroy()
     {
-        grabbed = false;
-        rb.useGravity = true;
-        grabAnchor = null;
+        Uninteract();
     }
 
-   
+    private void OnDisable()
+    {
+        Uninteract();
+    }
+
+
 }

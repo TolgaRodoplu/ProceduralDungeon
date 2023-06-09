@@ -12,23 +12,11 @@ public class Handle : MonoBehaviour, IInteractable
     [SerializeField] private string openClipName;
     [SerializeField] private string closeClipName;
 
-    string _type;
-
     private void Awake()
     {
         animator = GetComponent<Animator>();
     }
 
-    public string type
-    {
-        get => _type;
-        set => _type = value;
-    }
-
-    void Start()
-    {
-        type = "grab";
-    }
 
     public void Interact(Transform interactor)
     {

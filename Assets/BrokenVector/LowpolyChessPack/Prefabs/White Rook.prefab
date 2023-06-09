@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -8463449867568138962}
   - component: {fileID: 1878141182528581173}
   - component: {fileID: 8302503108268285346}
+  - component: {fileID: 1502141442584168029}
   m_Layer: 6
   m_Name: White Rook
   m_TagString: Untagged
@@ -111,7 +112,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b58080d61f0384fb736fdd81bbf79f, type: 3}
   m_Name: 
@@ -155,3 +156,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.89474887, y: 0.33416837, z: 0.85985434}
   m_Center: {x: -0.000000074505806, y: 1.5122051, z: -0.0070357695}
+--- !u!114 &1502141442584168029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a24daf888a5a44abc103c278040322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: '***'

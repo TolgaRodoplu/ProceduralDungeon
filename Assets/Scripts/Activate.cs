@@ -13,7 +13,8 @@ public class Activate : MonoBehaviour
         if(other.tag == "Player" && !isUsed)
         {
             activate.SetActive(true);
-            deactivate.SetActive(false);
+            Destroy(deactivate);
+            isUsed = true;
         }
 
     }

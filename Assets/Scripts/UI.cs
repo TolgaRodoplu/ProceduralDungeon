@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class UI : MonoBehaviour
 {
+    public GameObject canvas;
+
     public static UI instance;
 
     [SerializeField] private TextMeshProUGUI subtitleText;
@@ -23,5 +25,10 @@ public class UI : MonoBehaviour
     public void SubtitleToggle(bool activate) 
     {
         subtitleText.gameObject.transform.parent.parent.gameObject.SetActive(activate);
+    }
+
+    public void ToggleCanvas(bool activate)
+    {
+        canvas.SetActive(activate);
     }
 }

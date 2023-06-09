@@ -14,28 +14,21 @@ public class PlayerController : MonoBehaviour
     private bool canHeadBob = true;
 
     [Header("Controls")]
-    [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
-    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
-    [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
     [SerializeField] private KeyCode interractKey = KeyCode.E;
 
 
     [Header("Movement Parameters")]
     [SerializeField] private float walkSpeed = 1.0f;
-    [SerializeField] private float sprintSpeed = 1.0f;
-    [SerializeField] private float crouchSpeed = 1.0f;
     [SerializeField][Range(0.0f, 0.5f)] private float moveSmoothTime = 0.3f;
     private Vector2 currentDir = Vector2.zero;
     private Vector2 currentDirVelocity = Vector2.zero;
-
-    [Header("Jumping Parameters")]
     [SerializeField] private float gravity = -100f;
     private float velocityY = 0.0f;
 
     [Header("Looking Parameters")]
     [SerializeField] private float mouseSensitivity = 3.5f;
     [SerializeField][Range(0.0f, 0.5f)] private float mouseSmoothTime = 0.03f;
-    [SerializeField][Range(0f, 5f)] private float interractDistance = 100f;
+    [SerializeField][Range(0f, 5f)] private float interractDistance = 1000f;
     private float xRotation = 0.0f;
     private Vector2 currentMouseDelta = Vector2.zero;
     private Vector2 currentMouseDeltaVelocity = Vector2.zero;
@@ -57,6 +50,9 @@ public class PlayerController : MonoBehaviour
 
 
         Move();
+
+        if (Input.GetKeyUp(interractKey))
+            UI.instance.ToggleCanvas(true);
     }
 
     private void InterractWithObject()
@@ -64,9 +60,11 @@ public class PlayerController : MonoBehaviour
         var ray = new Ray(playerCamera.position, playerCamera.forward);
         RaycastHit hit;
 
-        
+        int layerMask = ~LayerMask.GetMask("Player");
 
-        if (Physics.Raycast(ray, out hit, interractDistance, LayerMask.GetMask("Interact")))
+
+
+        if (Physics.Raycast(ray, out hit, interractDistance, layerMask))
         {
             Debug.DrawLine(ray.origin, hit.point, Color.red);
             //Debug.Log(hit.transform.name);
@@ -86,6 +84,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(interractKey))
                 {
+                    UI.instance.ToggleCanvas(false);
                     interactable.Interact(this.transform);
                 }
             }
