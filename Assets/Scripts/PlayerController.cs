@@ -70,10 +70,12 @@ public class PlayerController : MonoBehaviour
             //Debug.Log(hit.transform.name);
             IInteractable interactable = hit.transform.GetComponent<IInteractable>();
 
-            Subtitle explenation = hit.transform.transform.GetComponent<Subtitle>();  
+            Subtitle explenation = hit.transform.transform.GetComponent<Subtitle>();
 
             if(explenation != null)
             {
+                Debug.Log("sa");
+                Debug.Log(explenation.text);
                 UI.instance.SetSubtitle(explenation.text);
                 UI.instance.SubtitleToggle(true);
             }

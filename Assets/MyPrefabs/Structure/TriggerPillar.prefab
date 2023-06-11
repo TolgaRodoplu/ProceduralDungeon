@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dbb4294002526e459fa31b85b58be7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puzzleID: 0
   keyID: 0
-  objectToTrigger: {fileID: 0}
 --- !u!65 &522833847767439571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -111,8 +111,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6525955, y: 0.8193594, z: 0.65229225}
-  m_Center: {x: 0, y: 0.4096797, z: 0}
+  m_Size: {x: 0.60423934, y: 0.8193595, z: 0.59255826}
+  m_Center: {x: -0.0042668185, y: 0.40967974, z: -0.00426658}
 --- !u!65 &522833847767439572
 BoxCollider:
   m_ObjectHideFlags: 0
