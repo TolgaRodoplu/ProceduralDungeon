@@ -9,7 +9,7 @@ public class SoundQueue : MonoBehaviour
         if(other.tag == "Player")
         {
             EventSystem.instance.TriggerSound("AfterLybrinth");
-            EventSystem.instance.StopSound("DungeonBackground");
+            //EventSystem.instance.StopSound("DungeonBackground");
         }
         
     }
@@ -18,7 +18,7 @@ public class SoundQueue : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            EventSystem.instance.TriggerSound("DungeonBackground");
+            //EventSystem.instance.TriggerSound("DungeonBackground");
             EventSystem.instance.StopSound("AfterLybrinth");
         }
     }

@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     public bool active = true;
-    [SerializeField] private Transform playerCamera = null;
+    public Transform playerCamera = null;
     private CharacterController controller = null;
 
     [Header("Restraints")]

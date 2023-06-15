@@ -9,6 +9,7 @@ public class Teleport : MonoBehaviour
     [SerializeField] private Transform teleportPosSecond;
     [SerializeField] private Transform wonderland;
     [SerializeField] private PlayerController playerController;
+    [SerializeField] private Transform camHolder;
     private bool isUsed = false;
 
     
@@ -17,7 +18,7 @@ public class Teleport : MonoBehaviour
     {
 
         UI.instance.ToggleCanvas(!isEnterance);
-
+ 
         if (isEnterance) 
         {
 
@@ -25,7 +26,7 @@ public class Teleport : MonoBehaviour
             {
 
                 playerController.active = false;
-                Camera.main.transform.rotation = Quaternion.Euler(-90, 0, 0);
+                playerController.playerCamera.rotation = Quaternion.Euler(-90, 0, 0);
 
             }
 
@@ -40,7 +41,7 @@ public class Teleport : MonoBehaviour
         {
 
             Time.timeScale = 1f;
-            Camera.main.transform.rotation = Quaternion.Euler(0, 0, 0);
+            playerController.playerCamera.rotation = Quaternion.Euler(0, 0, 0);
             playerController.active = true;
 
             if(!isUsed)

@@ -38,8 +38,8 @@ public class AudioManeger : MonoBehaviour
 
         if (s != null)
         {
-            //Play the sound
-            s.source.Play();
+            if(!s.source.isPlaying)
+                s.source.Play();
         }
         else
             Debug.Log("Sound Not Found!!!!");

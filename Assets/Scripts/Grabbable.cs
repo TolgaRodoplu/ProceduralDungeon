@@ -27,7 +27,7 @@ public class Grabbable : MonoBehaviour, IInteractable
         if (rb.isKinematic)
             rb.isKinematic = false;
 
-        grabAnchor = interactor.Find("Main Camera").Find("GrabAnchor");
+        grabAnchor = interactor.Find("CamHolder").Find("Main Camera").Find("GrabAnchor");
 
         if (grabAnchor == null)
             return;
