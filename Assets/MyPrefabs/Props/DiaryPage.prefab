@@ -78,6 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b58080d61f0384fb736fdd81bbf79f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffect: HoldPaper
 --- !u!114 &1120309986625851674
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -22,9 +22,11 @@ public class UI : MonoBehaviour
         subtitleText.text = subtitle;
     }
 
-    public void SubtitleToggle(bool activate) 
+    public bool SubtitleToggle(bool activate) 
     {
         subtitleText.gameObject.transform.parent.parent.gameObject.SetActive(activate);
+
+        return canvas.active;
     }
 
     public void ToggleCanvas(bool activate)

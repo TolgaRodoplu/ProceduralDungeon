@@ -7,6 +7,7 @@ public class Teleport : MonoBehaviour
     [SerializeField] private bool isEnterance = false;
     [SerializeField] private Transform teleportPos;
     [SerializeField] private Transform teleportPosSecond;
+    [SerializeField] private Transform wonderland;
     [SerializeField] private PlayerController playerController;
     private bool isUsed = false;
 
@@ -14,14 +15,21 @@ public class Teleport : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
+        UI.instance.ToggleCanvas(!isEnterance);
+
         if (isEnterance) 
         {
+
             if(playerController != null) 
             {
+
                 playerController.active = false;
                 Camera.main.transform.rotation = Quaternion.Euler(-90, 0, 0);
 
             }
+
+
 
             Time.timeScale = 0.2f;
 
@@ -37,12 +45,27 @@ public class Teleport : MonoBehaviour
 
             if(!isUsed)
             {
+                if(!wonderland.gameObject.activeInHierarchy)
+                {
+                    EventSystem.instance.TriggerSound("ForestBackground");
+                    EventSystem.instance.StopSound("DungeonBackground");
+
+                    wonderland.gameObject.SetActive(true);
+                }
+
                 isUsed = true;
                 other.gameObject.transform.position = teleportPos.position;
             }
 
             else
             {
+                if (wonderland.gameObject.activeInHierarchy)
+                {
+                    EventSystem.instance.TriggerSound("DungeonBackground");
+                    EventSystem.instance.StopSound("ForestBackground");
+                    wonderland.gameObject.SetActive(false);
+                }
+
                 isUsed = false;
                 other.gameObject.transform.position = teleportPosSecond.position;
             }

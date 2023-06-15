@@ -10,6 +10,7 @@ public class Grabbable : MonoBehaviour, IInteractable
     private float maxDistance = 1f;
     private float xRot;
     private Rigidbody rb;
+    [SerializeField] private string soundEffect = null;
 
    
 
@@ -21,6 +22,8 @@ public class Grabbable : MonoBehaviour, IInteractable
 
     public void Interact(Transform interactor)
     {
+        
+
         if (rb.isKinematic)
             rb.isKinematic = false;
 
@@ -35,6 +38,7 @@ public class Grabbable : MonoBehaviour, IInteractable
         rb.useGravity = false;
 
         
+
     }
 
     public void Uninteract()

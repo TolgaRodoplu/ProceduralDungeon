@@ -8,6 +8,7 @@ public class PuzzleTrigger : MonoBehaviour
     private bool isTriggered = false;
     [SerializeField] public float keyID;
 
+
     private void OnTriggerEnter(Collider other)
     {
         if (!isTriggered)
@@ -18,6 +19,8 @@ public class PuzzleTrigger : MonoBehaviour
             {
                 if (checkKey.keyID == keyID)
                 {
+                    EventSystem.instance.TriggerSound("PuzzleTrigger");
+
                     EventSystem.instance.TriggerPuzzle(puzzleID);
 
                     isTriggered = true;

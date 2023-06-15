@@ -35,10 +35,11 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
-        
         controller = GetComponent<CharacterController>();
         Activate();
     }
+
+    
 
     void Update()
     {
@@ -74,8 +75,6 @@ public class PlayerController : MonoBehaviour
 
             if(explenation != null)
             {
-                Debug.Log("sa");
-                Debug.Log(explenation.text);
                 UI.instance.SetSubtitle(explenation.text);
                 UI.instance.SubtitleToggle(true);
             }

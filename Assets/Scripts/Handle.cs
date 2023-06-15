@@ -32,6 +32,9 @@ public class Handle : MonoBehaviour, IInteractable
                 animator.Play(closeClipName, 0, 0.0f);
                 isOpen = false;
             }
+
+
+            EventSystem.instance.TriggerSound("DoorClip");
         }
         
     }

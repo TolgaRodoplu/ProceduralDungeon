@@ -6,6 +6,7 @@ using UnityEngine;
 public class AnimateObject : MonoBehaviour
 {
     Animator animator;
+    [SerializeField] private string soundEffect = null;
 
     private void Start()
     {
@@ -14,6 +15,9 @@ public class AnimateObject : MonoBehaviour
 
     public void Animate()
     {
+        if(soundEffect !=null) 
+            EventSystem.instance.TriggerSound(soundEffect);
+
         animator.Play("Default", 0, 0.0f);
     }
 }
