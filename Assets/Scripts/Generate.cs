@@ -5,50 +5,88 @@ using UnityEngine;
 
 public class Generate : MonoBehaviour
 {
-    int RoomCount = 20;
-    float spawnArea = 15f;
+    int totalRoomNum = 6; // Total number of room pool
+    int roomCount = 6;    // Number of rooms to be placed
+    int[] roomsPlaced;    // Rooms that are already placed
+    int height = 100;
+    int width = 100;
+    int[,] map;           // map[-Z][X]
 
     // Start is called before the first frame update
 
 
     private void Start()
     {
-        StartCoroutine(SpawnRooms());        
+        map = new int[height, width];
+
+        for(int i = 0; i < height; i++)
+        {
+            for(int j = 0; j < width; j++)
+            {
+                map[i, j] = 0;
+            }
+        }
+
+        roomsPlaced = new int[roomCount];
+        SpawnRooms();
     }
 
 
-    IEnumerator SpawnRooms()
+    void SpawnRooms()
     {
-        var cnt = RoomCount;
+        int cnt = 0;
 
-        while (cnt > 0) 
+        while (cnt < roomCount)
         {
-            var rand = Random.Range(2, 9);
-            var path = rand.ToString();
-            var rotation = Random.Range(0, 2);//0 = 0 // 1 = 90
-            Quaternion Rot;
-            Vector3 pos = new Vector3(Random.Range(-spawnArea, spawnArea), 0, Random.Range(-spawnArea, spawnArea));
+            int selectedRoom = Random.Range(0, totalRoomNum);
 
-            if (rotation == 0)
+            if (IsUsed(selectedRoom))
             {
-                Rot = Quaternion.Euler(Vector3.zero);
-            }
-            else
-                Rot = Quaternion.Euler(0, 90, 0);
-
-
-            if(!Physics.CheckBox(pos, new Vector3(2.5f, 2.5f, 2.5f)))
-            {
-                Debug.Log("NotCollided");
-                var obj = Instantiate(Resources.Load(path), pos, Rot);
-                cnt--;
+                continue;
             }
 
-            
+            Debug.Log("NotUsed");
 
-            yield return new WaitForSeconds(.3f);
+            roomsPlaced[cnt] = selectedRoom;
 
-            
+            cnt++;
         }
     }
+
+    //private bool IsSuitable(GameObject room)
+    //{
+    //    Room roomData = room.GetComponent<Room>();
+    //    int roomHeight = roomData.shape.GetLength(0);
+    //    int roomWidht = roomData.shape.GetLength(1);
+
+    //    int z = Random.Range(0, height);
+    //    int x = Random.Range(0, width);
+
+    //    for (int i = 0; i < roomHeight; i++)
+    //    {
+    //        for(int j = 0; j < roomWidht; j++)
+    //        {
+                
+    //        }
+    //    }
+
+    //    Debug.Log("suitable");
+
+        
+    //}
+
+    bool IsUsed(int room)
+    {
+        for(int i = 0; i < roomsPlaced.Length; i++) 
+        {
+            if(room == roomsPlaced[i]) 
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    
 }
