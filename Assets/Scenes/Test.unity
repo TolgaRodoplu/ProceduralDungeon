@@ -491,6 +491,50 @@ Transform:
   m_Father: {fileID: 1128666972}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &875780578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 875780580}
+  - component: {fileID: 875780579}
+  m_Layer: 0
+  m_Name: Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &875780579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875780578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6df4d656052d8459aa4a25f8c671c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &875780580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875780578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &895942707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room5
       objectReference: {fileID: 0}
+    - target: {fileID: 874819382339524475, guid: 076cf0c08421ab14b8b280a6f5421177, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076cf0c08421ab14b8b280a6f5421177, type: 3}
 --- !u!1001 &1873717214515043403
@@ -1214,6 +1262,10 @@ PrefabInstance:
     - target: {fileID: 1873717216221954212, guid: ebe8e433b5862f44d9bb180d382ae297, type: 3}
       propertyPath: m_Name
       value: Room3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873717216221954212, guid: ebe8e433b5862f44d9bb180d382ae297, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1873717216221954235, guid: ebe8e433b5862f44d9bb180d382ae297, type: 3}
       propertyPath: m_RootOrder
@@ -1271,6 +1323,10 @@ PrefabInstance:
     - target: {fileID: 2468984845350843898, guid: 1e4a76b56ae117949a4e888e9a0fd939, type: 3}
       propertyPath: m_Name
       value: Room0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468984845350843898, guid: 1e4a76b56ae117949a4e888e9a0fd939, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2468984845350843899, guid: 1e4a76b56ae117949a4e888e9a0fd939, type: 3}
       propertyPath: m_RootOrder
@@ -1381,6 +1437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room4
       objectReference: {fileID: 0}
+    - target: {fileID: 5607910622991141035, guid: dfa0a0db59bb7024381ccab98b55c554, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5607910623057319970, guid: dfa0a0db59bb7024381ccab98b55c554, type: 3}
       propertyPath: playerController
       value: 
@@ -1442,6 +1502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room2
       objectReference: {fileID: 0}
+    - target: {fileID: 6984645724482387615, guid: 41c4f05c3eb46d044b6b25ed0d2dcca0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41c4f05c3eb46d044b6b25ed0d2dcca0, type: 3}
 --- !u!1001 &8238102232311881696
@@ -1454,6 +1518,10 @@ PrefabInstance:
     - target: {fileID: 8238102232496261800, guid: 6daf3cff35a10e9458fd6fae6e66a7c0, type: 3}
       propertyPath: m_Name
       value: Room1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238102232496261800, guid: 6daf3cff35a10e9458fd6fae6e66a7c0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8238102232496261801, guid: 6daf3cff35a10e9458fd6fae6e66a7c0, type: 3}
       propertyPath: m_RootOrder
