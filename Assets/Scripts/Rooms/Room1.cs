@@ -8,6 +8,6 @@ public class Room1 : Room
     {
         shape = new int[,] { {1, 1, 0 },
                              {1, 1, 0 },
-                             {1, 1, -1 }};
+                             {1, 1, 2 }};
     }
 }

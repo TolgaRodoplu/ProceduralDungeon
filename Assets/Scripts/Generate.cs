@@ -8,6 +8,7 @@ public class Generate : MonoBehaviour
     int totalRoomNum = 6; // Total number of room pool
     int roomCount = 6;    // Number of rooms to be placed
     int[] roomsPlaced;    // Rooms that are already placed
+    Room[] roomsTree;
     int height = 30;
     int width = 30;
     int[,] map;           // map[-Z][X]
@@ -19,9 +20,9 @@ public class Generate : MonoBehaviour
     {
         map = new int[height, width];
 
-        for(int i = 0; i < height; i++)
+        for (int i = 0; i < height; i++)
         {
-            for(int j = 0; j < width; j++)
+            for (int j = 0; j < width; j++)
             {
                 map[i, j] = 0;
             }
@@ -29,8 +30,13 @@ public class Generate : MonoBehaviour
 
         roomsPlaced = new int[roomCount];
 
-        for(int i = 0;i < roomCount; i++)
+        for (int i = 0; i < roomsPlaced.Length; i++)
             roomsPlaced[i] = -1;
+
+        roomsTree = new Room[roomCount];
+
+        for (int i = 0; i < roomsTree.Length; i++)
+            roomsTree[i] = null;
 
         SpawnRooms();
     }
@@ -47,20 +53,24 @@ public class Generate : MonoBehaviour
             if (IsUsed(selectedRoom))
                 continue;
 
-            roomsPlaced[cnt] = selectedRoom;
-            cnt++;
+            
 
             GameObject room = Instantiate(Resources.Load("Rooms/Room" + selectedRoom)) as GameObject;
 
-            while(!IsSuitable(room)) { }
+            Room roomData = room.GetComponent<Room>();
+
+            while (!IsSuitable(room, roomData))
+
+            roomsTree[cnt] = roomData;
+            roomsPlaced[cnt] = selectedRoom;
+            cnt++;
 
             Debug.Log(room.name);
         }
     }
 
-    private bool IsSuitable(GameObject room)
+    private bool IsSuitable(GameObject room, Room roomData)
     {
-        Room roomData = room.GetComponent<Room>();
         int roomHeight = roomData.shape.GetLength(0);
         int roomWidht = roomData.shape.GetLength(1);
 
@@ -74,8 +84,8 @@ public class Generate : MonoBehaviour
                 int z = heightPlace + i;
                 int x = widhtPlace + j;
 
-                if(z >= map.GetLength(0)) return false;
-                if(x >= map.GetLength(1)) return false;
+                if (z >= map.GetLength(0)) return false;
+                if (x >= map.GetLength(1)) return false;
 
                 if (map[z, x] == 1) return false;
             }
@@ -105,9 +115,9 @@ public class Generate : MonoBehaviour
 
     bool IsUsed(int room)
     {
-        for(int i = 0; i < roomCount; i++) 
+        for (int i = 0; i < roomCount; i++)
         {
-            if(room == roomsPlaced[i]) 
+            if (room == roomsPlaced[i])
             {
                 return true;
             }
@@ -116,5 +126,6 @@ public class Generate : MonoBehaviour
         return false;
     }
 
-    
+
+
 }
