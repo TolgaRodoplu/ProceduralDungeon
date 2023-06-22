@@ -50,11 +50,106 @@ public class Generate : MonoBehaviour
         {
             for (int j = 0; j < width; j++)
             {
-                if (map[i, j] < 0)
+                if(map[i, j] < 0) //if regular hallway
                 {
-                    map[i, j] = 3;
                     Instantiate(Resources.Load("Hallway"), new Vector3(j * 5, 0, i * -5), Quaternion.identity);
+
+                    if (IsValidPoint(new Vector2Int(i - 1, j))) //top 
+                    {
+                        if(map[i - 1, j] == 0 || map[i - 1, j] == 1 || map[i - 1, j] == 4)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+
+
+                    if (IsValidPoint(new Vector2Int(i + 1, j))) //bottom
+                    {
+                        if (map[i + 1, j] == 0 || map[i + 1, j] == 1 || map[i + 1, j] == 4)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
+
+                    if (IsValidPoint(new Vector2Int(i, j + 1)) ) //right
+                    {
+                        if (map[i, j + 1] == 0 || map[i, j + 1] == 1 || map[i, j + 1] == 4)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+
+                    if (IsValidPoint(new Vector2Int(i, j - 1))) //left 
+                    {
+                        if (map[i, j - 1] == 0 || map[i, j - 1] == 1 || map[i, j - 1] == 4)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
                 }
+
+                else if(map[i, j] == 2) //if it is a gate
+                {
+                    Debug.Log("GateFound");
+                    Instantiate(Resources.Load("Hallway"), new Vector3(j * 5, 0, i * -5), Quaternion.identity);
+
+                    if (IsValidPoint(new Vector2Int(i - 1, j))) //top 
+                    {
+                        if (map[i - 1, j] == 0 || map[i - 1, j] == 1)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+
+                    if (IsValidPoint(new Vector2Int(i + 1, j))) //bottom
+                    {
+                        if (map[i + 1, j] == 0 || map[i + 1, j] == 1)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
+
+                    if (IsValidPoint(new Vector2Int(i, j + 1))) //right
+                    {
+                        if (map[i, j + 1] == 0 || map[i, j + 1] == 1)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+
+                    if (IsValidPoint(new Vector2Int(i, j - 1))) //left 
+                    {
+                        if (map[i, j - 1] == 0 || map[i, j - 1] == 1)
+                        {
+                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
+                        }
+                        
+                    }
+                    else
+                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
+                }
+                
                     
             }
         }
@@ -118,7 +213,7 @@ public class Generate : MonoBehaviour
                 if (z >= map.GetLength(0)) return false;
                 if (x >= map.GetLength(1)) return false;
 
-                if (map[z, x] == 1) return false;
+                if (map[z, x] == 1 || map[z, x] == 4 || map[z, x] == 2) return false;
             }
         }
 
@@ -225,7 +320,10 @@ public class Generate : MonoBehaviour
     void FindShortestPath()
     {
         Vector2Int currentPoint = startPoint;
-        map[currentPoint.x, currentPoint.y] = hallwayMark;
+
+        if (map[currentPoint.x, currentPoint.y] != 2)
+            map[currentPoint.x, currentPoint.y] = hallwayMark;
+
         while (currentPoint != endPoint)
         {
             Vector2Int nextPoint = FindNextPoint(currentPoint);
@@ -234,10 +332,19 @@ public class Generate : MonoBehaviour
                 Debug.Log("No path found!");
                 break;
             }
-            map[nextPoint.x, nextPoint.y] = hallwayMark;
+            if (map[nextPoint.x, nextPoint.y] != 2)
+                map[nextPoint.x, nextPoint.y] = hallwayMark;
+            else
+                Debug.Log("GateFound");
+
             currentPoint = nextPoint;
         }
-        map[currentPoint.x, currentPoint.y] = hallwayMark;
+
+        if (map[currentPoint.x, currentPoint.y] != 2)
+            map[currentPoint.x, currentPoint.y] = hallwayMark;
+        else
+            Debug.Log("GateFound");
+
         hallwayMark--;
     }
 
@@ -260,7 +367,7 @@ public class Generate : MonoBehaviour
             Vector2Int neighborPoint = currentPoint + neighbor;
 
             // Check if the neighbor is within bounds and reachable
-            if (IsValidPoint(neighborPoint) && map[neighborPoint.x, neighborPoint.y] != 1 && map[neighborPoint.x, neighborPoint.y] != hallwayMark)
+            if (IsValidPoint(neighborPoint) && map[neighborPoint.x, neighborPoint.y] != 1 && map[neighborPoint.x, neighborPoint.y] != hallwayMark && IsValidPoint(neighborPoint) && map[neighborPoint.x, neighborPoint.y] != 4)
             {
                 // Calculate the distance to the end point
                 int distance = Mathf.Abs(neighborPoint.x - endPoint.x) + Mathf.Abs(neighborPoint.y - endPoint.y);

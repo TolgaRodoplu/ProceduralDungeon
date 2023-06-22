@@ -8,7 +8,7 @@ public class Room4 : Room
     {
 
         shape = new int[,] { {1},
-                             {1},
+                             {4},
                              {2}};
     }
 }
