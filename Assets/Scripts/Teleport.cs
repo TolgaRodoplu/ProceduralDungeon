@@ -8,8 +8,6 @@ public class Teleport : MonoBehaviour
     [SerializeField] private Transform teleportPos;
     [SerializeField] private Transform teleportPosSecond;
     [SerializeField] private Transform wonderland;
-    [SerializeField] private PlayerController playerController;
-    [SerializeField] private Transform camHolder;
     private bool isUsed = false;
 
     
@@ -18,6 +16,8 @@ public class Teleport : MonoBehaviour
     {
 
         UI.instance.ToggleCanvas(!isEnterance);
+
+        PlayerController playerController = other.GetComponent<PlayerController>();
  
         if (isEnterance) 
         {

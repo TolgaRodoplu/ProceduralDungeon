@@ -152,6 +152,8 @@ public class Generate : MonoBehaviour
                 
                     
             }
+
+            Destroy(gameObject);
         }
 
         for (int i = 0; i < height; i++)

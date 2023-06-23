@@ -11,6 +11,8 @@ public class EventSystem : MonoBehaviour
     public event EventHandler<int[]> animationTriggered;
     void Awake()
     {
+        DontDestroyOnLoad(this.gameObject);
+
         if (instance == null)
             instance = this;
     }

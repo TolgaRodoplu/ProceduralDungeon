@@ -33,4 +33,9 @@ public class UI : MonoBehaviour
     {
         canvas.SetActive(activate);
     }
+
+    public void ButtonHoverSound()
+    {
+        EventSystem.instance.TriggerSound("ExplanationClip");
+    }
 }
