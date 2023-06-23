@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8497801387423223131}
   - component: {fileID: 8497801387423223132}
   - component: {fileID: 8497801387423223130}
+  - component: {fileID: 5816296967652748514}
   m_Layer: 6
   m_Name: Ramp
   m_TagString: Untagged
@@ -114,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b58080d61f0384fb736fdd81bbf79f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffect: 
 --- !u!64 &8497801387423223130
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -128,3 +130,21 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: d5347527df396ec4697e41062cc744f4, type: 3}
+--- !u!114 &5816296967652748514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7993534362144566408}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []

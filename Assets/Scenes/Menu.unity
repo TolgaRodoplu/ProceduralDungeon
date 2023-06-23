@@ -593,7 +593,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1534128307}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1925456882}
+        m_TargetAssemblyTypeName: UI, Assembly-CSharp
+        m_MethodName: NewGameButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &224121360
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7727,6 +7739,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5892442854298216553, guid: 8424fd8fc731b6741bbbbfa7939013b5, type: 3}
+      propertyPath: sounds.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892442854298216553, guid: 8424fd8fc731b6741bbbbfa7939013b5, type: 3}
+      propertyPath: sounds.Array.data[8].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 81bc8a3087796234ab671171a8a6b18a, type: 3}
+    - target: {fileID: 5892442854298216553, guid: 8424fd8fc731b6741bbbbfa7939013b5, type: 3}
+      propertyPath: sounds.Array.data[8].name
+      value: PaperRip
+      objectReference: {fileID: 0}
+    - target: {fileID: 5892442854298216553, guid: 8424fd8fc731b6741bbbbfa7939013b5, type: 3}
+      propertyPath: sounds.Array.data[8].volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5892442854298216554, guid: 8424fd8fc731b6741bbbbfa7939013b5, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -9114,7 +9142,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1849741985}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1925456882}
+        m_TargetAssemblyTypeName: UI, Assembly-CSharp
+        m_MethodName: QuitButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &1912586176
 CanvasRenderer:
   m_ObjectHideFlags: 0

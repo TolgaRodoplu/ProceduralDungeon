@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-[RequireComponent (typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody))]
 public class Grabbable : MonoBehaviour, IInteractable
 {
     private Transform grabAnchor;
@@ -12,17 +13,22 @@ public class Grabbable : MonoBehaviour, IInteractable
     private Rigidbody rb;
     [SerializeField] private string soundEffect = null;
 
-   
+
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
+        var outline = transform.AddComponent<Outline>();
+        outline.OutlineColor= Color.white;
+        outline.OutlineWidth = 4;
+        outline.OutlineMode = Outline.Mode.OutlineAll;
+        outline.enabled = false;
     }
 
     public void Interact(Transform interactor)
     {
-        
+
 
         if (rb.isKinematic)
             rb.isKinematic = false;
@@ -37,7 +43,7 @@ public class Grabbable : MonoBehaviour, IInteractable
         grabbed = true;
         rb.useGravity = false;
 
-        
+
 
     }
 
@@ -47,8 +53,8 @@ public class Grabbable : MonoBehaviour, IInteractable
         rb.useGravity = true;
         grabAnchor = null;
     }
-    
-    public void Update() 
+
+    public void Update()
     {
         if (grabbed)
         {

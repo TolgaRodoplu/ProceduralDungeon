@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     public bool active = true;
+    public bool isInteracting = false;
     public Transform playerCamera = null;
     private CharacterController controller = null;
 
@@ -33,13 +34,15 @@ public class PlayerController : MonoBehaviour
     private Vector2 currentMouseDelta = Vector2.zero;
     private Vector2 currentMouseDeltaVelocity = Vector2.zero;
 
+    private Outline outlinedObj = null;
+
     void Awake()
     {
         controller = GetComponent<CharacterController>();
         Activate();
     }
 
-    
+
 
     void Update()
     {
@@ -73,7 +76,23 @@ public class PlayerController : MonoBehaviour
 
             Subtitle explenation = hit.transform.transform.GetComponent<Subtitle>();
 
-            if(explenation != null)
+
+
+            if (outlinedObj != null)
+            {
+                outlinedObj.enabled = false;
+                outlinedObj = null;
+            }
+            
+            outlinedObj = hit.transform.GetComponent<Outline>();
+
+            if (outlinedObj != null)
+            {
+                outlinedObj.enabled = true;
+            }
+                
+
+            if (explenation != null)
             {
                 UI.instance.SetSubtitle(explenation.text);
                 UI.instance.SubtitleToggle(true);
@@ -85,14 +104,21 @@ public class PlayerController : MonoBehaviour
             {
                 if (Input.GetKeyDown(interractKey))
                 {
+                    isInteracting = true;
                     UI.instance.ToggleCanvas(false);
                     interactable.Interact(this.transform);
+
+                    if(outlinedObj!= null)
+                        outlinedObj.enabled = false;
                 }
             }
         }
         else
         {
             UI.instance.SubtitleToggle(false);
+
+            if(outlinedObj!= null)
+                outlinedObj.enabled = false;
         }
     }
     private void MouseLook()
@@ -109,7 +135,7 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(Vector3.up * currentMouseDelta.x * mouseSensitivity);
     }
 
-    
+
 
     private void Move()
     {
@@ -132,7 +158,7 @@ public class PlayerController : MonoBehaviour
         controller.Move(dir * Time.deltaTime);
     }
 
-    
+
     private void Activate()
     {
         active = true;

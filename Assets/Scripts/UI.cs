@@ -38,4 +38,13 @@ public class UI : MonoBehaviour
     {
         EventSystem.instance.TriggerSound("ExplanationClip");
     }
+
+    public void NewGameButtonPressed()
+    {
+        EventSystem.instance.TriggerSound("PaperRip");
+    }
+    public void QuitButtonPressed()
+    {
+        EventSystem.instance.TriggerSound("PaperRip");
+    }
 }

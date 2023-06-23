@@ -7,8 +7,8 @@ public class Generate : MonoBehaviour
     int roomCount = 6;    // Number of rooms to be placed
     int[] roomsPlaced;    // Rooms that are already placed
     Room[] roomsTree;
-    int height = 50;
-    int width = 50;
+    int height = 40;
+    int width = 40;
     int[,] map;           // map[-Z][X]
     int hallwayMark = -1;
     Vector2Int startPoint, endPoint;
@@ -216,6 +216,9 @@ public class Generate : MonoBehaviour
                 if (x >= map.GetLength(1)) return false;
 
                 if (map[z, x] == 1 || map[z, x] == 4 || map[z, x] == 2) return false;
+
+                
+
             }
         }
 
