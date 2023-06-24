@@ -9,17 +9,26 @@ public class EventSystem : MonoBehaviour
     public event EventHandler<string> soundTriggered, soundStopped;
     public event EventHandler<int> puzzleTriggered;
     public event EventHandler<int[]> animationTriggered;
+    public event Action gameStarted, playStarted;
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
 
         if (instance == null)
             instance = this;
+        
     }
 
     private void Start()
     {
-        instance.TriggerSound("DungeonBackground");
+        Debug.Log("sa");
+    }
+
+    
+
+    public void StartPlay()
+    {
+        TriggerSound("DungeonBackground");
+        playStarted?.Invoke();
     }
 
     public void TriggerPuzzle(int puzzleID)

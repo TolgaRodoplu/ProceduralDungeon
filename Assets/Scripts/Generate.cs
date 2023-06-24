@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Generate : MonoBehaviour
 {
+    public Intro intro;
     int totalRoomNum = 6; // Total number of room pool
     int roomCount = 6;    // Number of rooms to be placed
     int[] roomsPlaced;    // Rooms that are already placed
@@ -153,7 +154,7 @@ public class Generate : MonoBehaviour
                     
             }
 
-            Destroy(gameObject);
+            
         }
 
         for (int i = 0; i < height; i++)
@@ -167,6 +168,10 @@ public class Generate : MonoBehaviour
         }
 
         Debug.Log("pathFound!!!!!!!!!!!!!!!!!!!!!!!!!");
+
+        intro.StartStartIntro();
+
+        Destroy(gameObject);
     }
 
 

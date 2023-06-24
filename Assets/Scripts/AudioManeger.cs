@@ -27,7 +27,6 @@ public class AudioManeger : MonoBehaviour
 
     private void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
         EventSystem.instance.soundTriggered += Play;
         EventSystem.instance.soundStopped += Stop;
     }

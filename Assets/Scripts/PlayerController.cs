@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-    public bool active = true;
+    public bool active = false;
     public bool isInteracting = false;
     public Transform playerCamera = null;
     private CharacterController controller = null;
@@ -39,10 +39,12 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         controller = GetComponent<CharacterController>();
-        Activate();
     }
 
-
+    private void Start()
+    {
+        EventSystem.instance.playStarted += Activate;
+    }
 
     void Update()
     {
@@ -55,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
         Move();
 
-        if (Input.GetKeyUp(interractKey))
+        if (Input.GetKeyUp(interractKey) && active)
             UI.instance.ToggleCanvas(true);
     }
 
@@ -159,14 +161,17 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    private void Activate()
+    public void Activate()
     {
+
+        UI.instance.ToggleCanvas(true);
         active = true;
         Cursor.lockState = CursorLockMode.Locked;
 
     }
-    private void Deactivate(object sender, Vector3 rgb)
+    public void Deactivate()
     {
+        UI.instance.ToggleCanvas(false);
         active = false;
         Cursor.lockState = CursorLockMode.Confined;
     }

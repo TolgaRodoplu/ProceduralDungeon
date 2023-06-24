@@ -25,7 +25,7 @@ public class Teleport : MonoBehaviour
             if(playerController != null) 
             {
 
-                playerController.active = false;
+                playerController.Deactivate();
                 playerController.playerCamera.rotation = Quaternion.Euler(-90, 0, 0);
                 Time.timeScale = 0.2f;
             }
@@ -41,7 +41,7 @@ public class Teleport : MonoBehaviour
 
             Time.timeScale = 1f;
             playerController.playerCamera.rotation = Quaternion.Euler(0, 0, 0);
-            playerController.active = true;
+            playerController.Activate();
 
             if(!isUsed)
             {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class UI : MonoBehaviour
     public void NewGameButtonPressed()
     {
         EventSystem.instance.TriggerSound("PaperRip");
+        SceneManager.LoadScene("Test");
     }
     public void QuitButtonPressed()
     {
