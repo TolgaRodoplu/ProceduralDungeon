@@ -19,6 +19,7 @@ public class Grabbable : MonoBehaviour, IInteractable
     {
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
+        rb.collisionDetectionMode = CollisionDetectionMode.Discrete;
         //var outline = transform.AddComponent<Outline>();
         //outline.OutlineColor= Color.white;
         //outline.OutlineWidth = 4;
@@ -93,5 +94,24 @@ public class Grabbable : MonoBehaviour, IInteractable
         Uninteract();
     }
 
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Room")
+        {
+            if(this.transform.parent == null)
+            {
+                this.transform.parent = other.transform.GetChild(0);
+            }
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Room")
+        {
+            if (this.transform.parent == other.transform.GetChild(0))
+            {
+                this.transform.parent = null;
+            }
+        }
+    }
 }

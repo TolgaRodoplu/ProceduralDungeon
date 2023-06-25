@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        this.transform.parent = null;
         EventSystem.instance.playStarted += Activate;
     }
 
