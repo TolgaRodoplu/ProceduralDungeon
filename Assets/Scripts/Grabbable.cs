@@ -69,6 +69,7 @@ public class Grabbable : MonoBehaviour, IInteractable
     private void FixedUpdate()
     {
 
+
         if (grabbed)
         {
             Vector3 DirectionToPoint = grabAnchor.position - transform.position;
@@ -81,6 +82,7 @@ public class Grabbable : MonoBehaviour, IInteractable
 
             rb.angularVelocity = Vector3.zero;
         }
+        
 
     }
 
@@ -94,24 +96,8 @@ public class Grabbable : MonoBehaviour, IInteractable
         Uninteract();
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.tag == "Room")
-        {
-            if(this.transform.parent == null)
-            {
-                this.transform.parent = other.transform.GetChild(0);
-            }
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Room")
-        {
-            if (this.transform.parent == other.transform.GetChild(0))
-            {
-                this.transform.parent = null;
-            }
-        }
-    }
+   
+
+    
+
 }

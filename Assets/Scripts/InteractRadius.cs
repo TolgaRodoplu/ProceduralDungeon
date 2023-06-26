@@ -8,9 +8,16 @@ public class InteractRadius : MonoBehaviour
     {
         Grabbable interactObject = other.GetComponent<Grabbable>();
 
+        Subtitle subtitle= other.GetComponent<Subtitle>();
+
         if(interactObject != null)
         {
             interactObject.enabled = true;
+        }
+        
+        if(subtitle != null) 
+        {
+            subtitle.enabled = true;
         }
     }
 
@@ -18,10 +25,18 @@ public class InteractRadius : MonoBehaviour
     {
         Grabbable interactObject = other.GetComponent<Grabbable>();
 
+        Subtitle subtitle = other.GetComponent<Subtitle>();
+
         if (interactObject != null)
         {
             interactObject.enabled = false;
         }
+
+        if (subtitle != null)
+        {
+            subtitle.enabled = false;
+        }
+
     }
 
 

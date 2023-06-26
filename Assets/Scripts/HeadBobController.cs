@@ -18,8 +18,10 @@ public class HeadBobController : MonoBehaviour
 
     private void Update()
     {
+        
         CheckForHeadBob();
         StopHeadBob();
+
     }
 
     private void CheckForHeadBob()

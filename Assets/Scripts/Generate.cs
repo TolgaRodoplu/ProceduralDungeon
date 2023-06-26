@@ -1,5 +1,6 @@
 using System.Net;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Generate : MonoBehaviour
 {
@@ -8,8 +9,8 @@ public class Generate : MonoBehaviour
     int roomCount = 6;    // Number of rooms to be placed
     int[] roomsPlaced;    // Rooms that are already placed
     Room[] roomsTree;
-    int height = 40;
-    int width = 40;
+    int height = 30;
+    int width = 30;
     int[,] map;           // map[-Z][X]
     int hallwayMark = -1;
     Vector2Int startPoint, endPoint;
@@ -341,6 +342,7 @@ public class Generate : MonoBehaviour
             {
                 Debug.Log("No path found!");
                 break;
+                //SceneManager.LoadScene("Test", LoadSceneMode.Single);
             }
             if (map[nextPoint.x, nextPoint.y] != 2)
                 map[nextPoint.x, nextPoint.y] = hallwayMark;

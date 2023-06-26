@@ -55,11 +55,16 @@ public class PlayerController : MonoBehaviour
             MouseLook();
         }
 
-
         Move();
+
 
         if (Input.GetKeyUp(interractKey) && active)
             UI.instance.ToggleCanvas(true);
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            UI.instance.ReturnToMenu();
+        }
     }
 
     private void InterractWithObject()
@@ -111,8 +116,7 @@ public class PlayerController : MonoBehaviour
                     UI.instance.ToggleCanvas(false);
                     interactable.Interact(this.transform);
 
-                    if(outlinedObj!= null)
-                        outlinedObj.enabled = false;
+                    
                 }
             }
         }

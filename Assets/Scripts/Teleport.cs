@@ -7,7 +7,7 @@ public class Teleport : MonoBehaviour
     [SerializeField] private bool isEnterance = false;
     [SerializeField] private Transform teleportPos;
     [SerializeField] private Transform teleportPosSecond;
-    [SerializeField] private Transform wonderland;
+    [SerializeField] private Transform wonderlandLight;
     private bool isUsed = false;
 
     
@@ -45,12 +45,12 @@ public class Teleport : MonoBehaviour
 
             if(!isUsed)
             {
-                if(!wonderland.gameObject.activeInHierarchy)
+                if(!wonderlandLight.gameObject.activeInHierarchy)
                 {
                     EventSystem.instance.TriggerSound("ForestBackground");
                     EventSystem.instance.StopSound("DungeonBackground");
 
-                    wonderland.gameObject.SetActive(true);
+                    wonderlandLight.gameObject.SetActive(true);
                 }
 
                 isUsed = true;
@@ -59,11 +59,11 @@ public class Teleport : MonoBehaviour
 
             else
             {
-                if (wonderland.gameObject.activeInHierarchy)
+                if (wonderlandLight.gameObject.activeInHierarchy)
                 {
                     EventSystem.instance.TriggerSound("DungeonBackground");
                     EventSystem.instance.StopSound("ForestBackground");
-                    wonderland.gameObject.SetActive(false);
+                    wonderlandLight.gameObject.SetActive(false);
                 }
 
                 isUsed = false;

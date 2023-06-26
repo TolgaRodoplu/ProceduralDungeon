@@ -840,6 +840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IntroCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6010639750872348418, guid: 189e7b57578115b4880818a85e1b5677, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6010639750872348430, guid: 189e7b57578115b4880818a85e1b5677, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -945,6 +949,10 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1398346011}
+    - target: {fileID: 6459626316956047593, guid: 75b004f111bb17042861244b7c15ca17, type: 3}
+      propertyPath: pauseCanvas
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6459626316956047593, guid: 75b004f111bb17042861244b7c15ca17, type: 3}
       propertyPath: subtitleText
       value: 

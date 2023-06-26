@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -48,5 +49,13 @@ public class UI : MonoBehaviour
     public void QuitButtonPressed()
     {
         EventSystem.instance.TriggerSound("PaperRip");
+        Application.Quit();
     }
+
+    public void ReturnToMenu()
+    {
+
+        SceneManager.LoadScene("Menu");
+    }
+
 }

@@ -57224,7 +57224,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5447998565479829884}
   - component: {fileID: 8633275122249366123}
-  - component: {fileID: 5553294399126139913}
   m_Layer: 0
   m_Name: Room5
   m_TagString: Untagged
@@ -57264,19 +57263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorZ: 0
   doorX: 0
---- !u!65 &5553294399126139913
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5447998565479829885}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 109.89101, y: 1, z: 49.62555}
-  m_Center: {x: 52.691246, y: 0, z: -22.361069}
 --- !u!1 &5447998565555063717
 GameObject:
   m_ObjectHideFlags: 0
