@@ -16,11 +16,7 @@ public class Handle : MonoBehaviour, IInteractable
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        //var outline = transform.AddComponent<Outline>();
-        //outline.OutlineColor = Color.white;
-        //outline.OutlineWidth = 7;
-        //outline.OutlineMode = Outline.Mode.OutlineAll;
-        //outline.enabled = false;
+        
     }
 
 

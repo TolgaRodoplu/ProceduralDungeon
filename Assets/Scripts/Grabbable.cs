@@ -20,11 +20,7 @@ public class Grabbable : MonoBehaviour, IInteractable
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Discrete;
-        //var outline = transform.AddComponent<Outline>();
-        //outline.OutlineColor= Color.white;
-        //outline.OutlineWidth = 4;
-        //outline.OutlineMode = Outline.Mode.OutlineAll;
-        //outline.enabled = false;
+        
     }
 
     public void Interact(Transform interactor)
