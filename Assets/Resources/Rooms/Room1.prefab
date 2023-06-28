@@ -1476,6 +1476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591451115696012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1568,6 +1569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591451419800834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1660,6 +1662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591451190476062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1752,6 +1755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591450414858369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1844,6 +1848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591450746372850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1936,6 +1941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591449854701312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2028,6 +2034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591450291042698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2120,6 +2127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591450232793248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2212,6 +2220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591449491319260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2304,6 +2313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7598591449635925032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3392,6 +3402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9112827218211076462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3484,6 +3495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9112827218099890908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3576,6 +3588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9112827217921594757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3668,6 +3681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9112827218470063338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4929,6 +4943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4189428150114918650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5021,6 +5036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6667290109151877466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5113,6 +5129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6612659655440324715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6616,6 +6633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1025918398896204969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6708,6 +6726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1025918399641628098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6800,6 +6819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1025918400175865319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6892,6 +6912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1025918399898519467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7565,6 +7586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8425773161343928965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7657,6 +7679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8425773159709548716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7958,6 +7981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914930238886493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8050,6 +8074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914930193612664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8142,6 +8167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914929986903724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8234,6 +8260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914929659441438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8327,6 +8354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914929636653872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8432,6 +8460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914931346727408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8524,6 +8553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914931024210308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8616,6 +8646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6696914930997617953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8708,6 +8739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1034695450879044305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8800,6 +8832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1034695450444531748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8892,6 +8925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1034695449753592188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9399,6 +9433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224983674562652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9491,6 +9526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224983482889949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9583,6 +9619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224983324308681
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9675,6 +9712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224983364506164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9767,6 +9805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224983109786463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9859,6 +9898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224982923186799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9951,6 +9991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224982873304599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10043,6 +10084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224982462014511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10135,6 +10177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224982313378396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10227,6 +10270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4764224981707996481
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10319,6 +10363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2195109768892788925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11006,6 +11051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5512732331154414695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11098,6 +11144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5512732330356017183
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11190,6 +11237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5512732330769679484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11282,6 +11330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5512732329927896292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11374,6 +11423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5512732329606831315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11632,6 +11682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7174336069333699870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11724,6 +11775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7174336068008940822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11816,6 +11868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7174336068186492832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11908,6 +11961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7174336068487238724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12000,6 +12054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7174336068631186031
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12092,6 +12147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3050754699698516321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12184,6 +12240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4081350945953195005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12276,6 +12333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4081350945716046426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12368,6 +12426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4081350945117708014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12460,6 +12519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4081350946348609133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12552,6 +12612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4081350946150333316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12644,6 +12705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3755132513399575367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12736,6 +12798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3755132514446582862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13176,6 +13239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2182390744070739011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13268,6 +13332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2182390744938861295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13360,6 +13425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2182390745347715202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13452,6 +13518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2182390745306245866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13959,6 +14026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7249668970528197594
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14051,6 +14119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7249668969803793040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14904,6 +14973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: HoldPaper
+  cross: 
 --- !u!114 &1243841191575100542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14996,6 +15066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2174774142672891770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15088,6 +15159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2174774142168598202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15180,6 +15252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2174774141610709664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16384,6 +16457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!1 &2220029452362106151
 GameObject:
   m_ObjectHideFlags: 0
@@ -22683,6 +22757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1009715873819989938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24200,6 +24275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6149749780318980341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24375,6 +24451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6668562023565825482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24467,6 +24544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6668562024245011453
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24559,6 +24637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6668562024117978307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24817,6 +24896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754560833528424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24909,6 +24989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754560824429253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25001,6 +25082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754561071873600
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25093,6 +25175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754560059472056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25185,6 +25268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754560397432961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25277,6 +25361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754559965161147
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25369,6 +25454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754559969372644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25461,6 +25547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754559986053903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25553,6 +25640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754559856638543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25645,6 +25733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754558994580074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25737,6 +25826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5444754559240507316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25829,6 +25919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3224844100429003628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25921,6 +26012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3224844100118809179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26013,6 +26105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3224844101463616864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26105,6 +26198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3224844101625633063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27027,6 +27121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5843920703130020196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27119,6 +27214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5843920703427636585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27211,6 +27307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5843920703557699661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27303,6 +27400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5843920703772691598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27395,6 +27493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5843920702713489622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27487,6 +27586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6194377063279093537
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27579,6 +27679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6194377064528082832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27671,6 +27772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6194377064071336185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27763,6 +27865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6194377063633493724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27938,6 +28041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &176835675034052234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28030,6 +28134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &176835675787992034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28122,6 +28227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &176835676964115384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28878,6 +28984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &474412252172937640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28970,6 +29077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &474412253124263056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29062,6 +29170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3217755694236731828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29154,6 +29263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3217755693540503873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29246,6 +29356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3217755693430511015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29338,6 +29449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3217755692508759181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29430,6 +29542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636074149386393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29522,6 +29635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636073813643215
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29614,6 +29728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636073491192415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29706,6 +29821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636073591473096
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29798,6 +29914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636073560952758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29890,6 +30007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636073362412471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29982,6 +30100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636075130253835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30074,6 +30193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636075300959925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30166,6 +30286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9082636074529362534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30193,1002 +30314,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: 
   isKey: 0
---- !u!1 &3272887600007749166
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729568819543201}
-  - component: {fileID: 7080096295650521907}
-  - component: {fileID: 8407288416641417263}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729568819543201
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600007749166}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310498610189326}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096295650521907
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600007749166}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288416641417263
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600007749166}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887600200839970
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729568920310189}
-  - component: {fileID: 7080096295791140415}
-  - component: {fileID: 8407288416501591331}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729568920310189
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600200839970}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310498510731522}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096295791140415
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600200839970}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288416501591331
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600200839970}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887600465482472
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729568656519271}
-  - component: {fileID: 7080096296064155637}
-  - component: {fileID: 8407288416765709545}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729568656519271
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600465482472}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310498246826184}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096296064155637
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600465482472}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288416765709545
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600465482472}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887600658969315
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729569537822828}
-  - component: {fileID: 7080096295200628734}
-  - component: {fileID: 8407288415885454562}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729569537822828
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600658969315}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310498992912579}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096295200628734
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600658969315}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288415885454562
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600658969315}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887600837079422
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729569095209969}
-  - component: {fileID: 7080096295357799523}
-  - component: {fileID: 8407288416399110015}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729569095209969
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600837079422}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310498885811038}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096295357799523
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600837079422}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288416399110015
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600837079422}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887600959049172
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729569208643419}
-  - component: {fileID: 7080096295502815433}
-  - component: {fileID: 8407288416250942421}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729569208643419
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600959049172}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310498732001268}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096295502815433
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600959049172}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288416250942421
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887600959049172}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887601192807626
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729567899045445}
-  - component: {fileID: 7080096296812429783}
-  - component: {fileID: 8407288415346078411}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729567899045445
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601192807626}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310497355146986}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096296812429783
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601192807626}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288415346078411
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601192807626}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887601777722810
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729568425092917}
-  - component: {fileID: 7080096296296327335}
-  - component: {fileID: 8407288414921612219}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729568425092917
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601777722810}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310497947406234}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096296296327335
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601777722810}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288414921612219
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601777722810}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887601813364123
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729568385269524}
-  - component: {fileID: 7080096296327803014}
-  - component: {fileID: 8407288414890132378}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729568385269524
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601813364123}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310497974654907}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096296327803014
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601813364123}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288414890132378
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601813364123}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887601868309154
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729568062857261}
-  - component: {fileID: 7080096296405888959}
-  - component: {fileID: 8407288415215754403}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729568062857261
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601868309154}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310497787447426}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096296405888959
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601868309154}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288415215754403
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601868309154}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887601945515432
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729567989069607}
-  - component: {fileID: 7080096296464218293}
-  - component: {fileID: 8407288415290854313}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729567989069607
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601945515432}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310497846828936}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096296464218293
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601945515432}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288415290854313
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887601945515432}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3272887602001503285
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883729568196003514}
-  - component: {fileID: 7080096296541129000}
-  - component: {fileID: 8407288415078414900}
-  m_Layer: 0
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &883729568196003514
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887602001503285}
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6079310497652207125}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!33 &7080096296541129000
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887602001503285}
-  m_Mesh: {fileID: 4300000, guid: 4cc906de70ac5624b9b10b53b2b6fb9b, type: 3}
---- !u!23 &8407288415078414900
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3272887602001503285}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 42b64fdb315e3054ea757d8d1c4bcfa7, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3295943779271266487
 GameObject:
   m_ObjectHideFlags: 0
@@ -34491,6 +33616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1315163584837728315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34763,6 +33889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5548116279963860873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34855,6 +33982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5548116280840956688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34947,6 +34075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5548116280711428056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35039,6 +34168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1993938582689220463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35131,6 +34261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1993938582831900039
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35223,6 +34354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1993938584131357718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35315,6 +34447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615180558424705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35407,6 +34540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615180172203021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35499,6 +34633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615180201828040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35591,6 +34726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615180200947278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35683,6 +34819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615180095144943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35775,6 +34912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615180535285752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35867,6 +35005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615180318356312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35959,6 +35098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615179721508758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36051,6 +35191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615179928910247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36143,6 +35284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615179900916204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36235,6 +35377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6627615179829883619
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37401,6 +36544,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bb05331b325d14aac65fcef16af6f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffect: 
+  cross: 
   openClipName: DoorOpen
   closeClipName: DoorClose
 --- !u!54 &4189743535726849349
@@ -37484,6 +36629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &624396138843577858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37576,6 +36722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4714254382981135253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37668,6 +36815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4714254381553700114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37760,6 +36908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4714254381543873664
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37852,6 +37001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4714254381878328226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37944,6 +37094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4714254382553411119
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38368,6 +37519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1648547152228307858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38460,6 +37612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1648547153534333804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38552,6 +37705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572949370618873
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38644,6 +37798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572949326201859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38736,6 +37891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572949440340114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38828,6 +37984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572949430007845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38920,6 +38077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572949089366040
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39012,6 +38170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572950602257456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39104,6 +38263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572950348308857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39196,6 +38356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572950282264283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39288,6 +38449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7960572949930625654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39380,6 +38542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3242313531632602804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39472,6 +38635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1051854351339309798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39564,6 +38728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1051854350823176318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39656,6 +38821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1051854352594182315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39748,6 +38914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1051854351771886963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39840,6 +39007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1051854351791170613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39932,6 +39100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1051854352206257827
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40356,6 +39525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &9181419654569439427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40780,6 +39950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5336083593618613698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40872,6 +40043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5336083593073044492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41711,6 +40883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5073241494133539998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41803,6 +40976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5073241493147428921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42905,6 +42079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3759529957140867770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42997,6 +42172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2268818959936507494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43089,6 +42265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2268818959515413908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43181,6 +42358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2268818959806162648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43273,6 +42451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2268818958946990024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48527,6 +47706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5599160553459594595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48619,6 +47799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5599160553637564306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48711,6 +47892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5599160553320592458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48803,6 +47985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5599160555161893629
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49725,6 +48908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1750808892444872180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49817,6 +49001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7133978165319417425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49909,6 +49094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7133978165525750521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50001,6 +49187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7133978166989713650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50093,6 +49280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7736763071061584544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50185,6 +49373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7736763071009836043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50277,6 +49466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7736763072519876310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50369,6 +49559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7736763072077073496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50461,6 +49652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7736763071681426135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50553,6 +49745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2237731035154637235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50811,6 +50004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3783618912479195685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50903,6 +50097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3783618911525535310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50995,6 +50190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3783618913578832970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51087,6 +50283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3783618912706484022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51179,6 +50376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015936539274444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51271,6 +50469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015936266842734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51363,6 +50562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015935730764862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51455,6 +50655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015935438042023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51547,6 +50748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015935359539097
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51639,6 +50841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015935236033487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51731,6 +50934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015934996541167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51823,6 +51027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015935089943849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51915,6 +51120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015935110972628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52007,6 +51213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &114015934929726560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52348,6 +51555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5607834230584027056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52440,6 +51648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5607834230381244228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52532,6 +51741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5607834230358827913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52624,6 +51834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5607834230320837312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54270,8 +53481,7 @@ Transform:
   m_LocalPosition: {x: 5, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729567899045445}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54368,8 +53578,7 @@ Transform:
   m_LocalPosition: {x: 5, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729568196003514}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54466,8 +53675,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729568062857261}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54564,8 +53772,7 @@ Transform:
   m_LocalPosition: {x: 0.25, y: 5, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729567989069607}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -54662,8 +53869,7 @@ Transform:
   m_LocalPosition: {x: 5, y: 5, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729568425092917}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -54760,8 +53966,7 @@ Transform:
   m_LocalPosition: {x: 10, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729568385269524}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54858,8 +54063,7 @@ Transform:
   m_LocalPosition: {x: 10, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729568656519271}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54956,8 +54160,7 @@ Transform:
   m_LocalPosition: {x: -4.75, y: 5, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729568920310189}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -55054,8 +54257,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729568819543201}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -55152,8 +54354,7 @@ Transform:
   m_LocalPosition: {x: -4.75, y: 5, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729569208643419}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -55250,8 +54451,7 @@ Transform:
   m_LocalPosition: {x: 0.25, y: 5, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729569095209969}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -55348,8 +54548,7 @@ Transform:
   m_LocalPosition: {x: 5, y: 5, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 883729569537822828}
+  m_Children: []
   m_Father: {fileID: 2220029451649200831}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
@@ -56062,6 +55261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1083631769569595574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56154,6 +55354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1083631769875578135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56246,6 +55447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1083631769309389166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56338,6 +55540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1083631768224827639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56679,6 +55882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8301438184133675480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57064,6 +56268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8853831502836313638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57156,6 +56361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8853831502997321551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57248,6 +56454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8853831503883940496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57838,6 +57045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &592712503367707171
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57930,6 +57138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8875225480522625301
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58022,6 +57231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8875225480180146905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58114,6 +57324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8875225481383572097
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58206,6 +57417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8875225480930816927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58298,6 +57510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8875225480918626998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58473,6 +57686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1115669010412255212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58565,6 +57779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7628685172407551256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58657,6 +57872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5587778282810007374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58749,6 +57965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226767242293855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58841,6 +58058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226767235590081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58933,6 +58151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226767084463657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59025,6 +58244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226767161780842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59117,6 +58337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226766559940022
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59209,6 +58430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226766478682370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59301,6 +58523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226766368362870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59393,6 +58616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226766227691389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59485,6 +58709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226766042986290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59577,6 +58802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1288226765694539553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59669,6 +58895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8064869075091095639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59761,6 +58988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8064869075119599607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59853,6 +59081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8064869074206337706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59945,6 +59174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8064869074214805275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60037,6 +59267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8064869076187608214
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60129,6 +59360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8064869075477129461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60595,6 +59827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3132631246938289404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60687,6 +59920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3132631247041499908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60779,6 +60013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2815596418740010869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60871,6 +60106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2815596417380327160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61295,6 +60531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2170225686991667583
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63208,6 +62445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531057535616220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63300,6 +62538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531056625084723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63392,6 +62631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531056731965414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63484,6 +62724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531056075884299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63576,6 +62817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531055412077092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63668,6 +62910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531055798904525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63760,6 +63003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531055887771034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63852,6 +63096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531055674287826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63944,6 +63189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &578531055771664968
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64036,6 +63282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5212558787375100941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64128,6 +63375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5212558787218417131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64220,6 +63468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5212558787734980896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64312,6 +63561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2234770949391138575
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64404,6 +63654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2234770949997572271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64496,6 +63747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2234770949961089250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64588,6 +63840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2234770950612000092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65355,6 +64608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4737004255031205482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65447,6 +64701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1644008844026286279
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65636,6 +64891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4754889292880322561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65728,6 +64984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4754889293797624917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65820,6 +65077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4754889294141756591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65912,6 +65170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4228922586375525290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66419,6 +65678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1620773168718748795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66511,6 +65771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1620773169953626425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66603,6 +65864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1620773169752308181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66695,6 +65957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1620773169431562356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66870,6 +66133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4463697541371765659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68373,6 +67637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1869220120879158868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68465,6 +67730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1869220120833851867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68557,6 +67823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3213224384816237442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69396,6 +68663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6729980929180707153
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69488,6 +68756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6729980929329439090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69580,6 +68849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6729980929610629768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69672,6 +68942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6729980929515285137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69764,6 +69035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6729980930814856603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69856,6 +69128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615904820878786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69948,6 +69221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615904748605458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70040,6 +69314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615904394545206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70132,6 +69407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615904115056426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70224,6 +69500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615904174634905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70316,6 +69593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615904004853963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70408,6 +69686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615904022629134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70500,6 +69779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615903366089732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70592,6 +69872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615903230021813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70684,6 +69965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615903006264991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70776,6 +70058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2551615902827877515
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70868,6 +70151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945979606420777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70960,6 +70244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945979571588470
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71052,6 +70337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945979635017564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71144,6 +70430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945978717228399
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71236,6 +70523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945978817859972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71328,6 +70616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945978790777500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71420,6 +70709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945979877348585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71512,6 +70802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4432945979918971045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72019,6 +71310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6350947460995084178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72111,6 +71403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6350947461896187329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72203,6 +71496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6350947461744600347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72392,6 +71686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5893131418114613128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72484,6 +71779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3311813259793429572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72576,6 +71872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3311813259851002790
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72668,6 +71965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3311813259098125417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72760,6 +72058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3311813258166194598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72852,6 +72151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &478809679446717738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72944,6 +72244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6154218798996205472
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73036,6 +72337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6154218800125668852
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73128,6 +72430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6154218800348661529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73220,6 +72523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6473673001397406144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73312,6 +72616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6473673000822645565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73404,6 +72709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6473673002381901552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73496,6 +72802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6473673002031511095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73588,6 +72895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6473673001730906045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74344,6 +73652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5875333936295925701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74436,6 +73745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5875333936656026718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74528,6 +73838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5875333938091640794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74703,6 +74014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &435590311447989693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74795,6 +74107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &435590311280260086
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74887,6 +74200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &435590313127495369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74979,6 +74293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &435590312222807045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75071,6 +74386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &208459574498283038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75163,6 +74479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &208459574420429001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75255,6 +74572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &208459574670898121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75347,6 +74665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &208459572918911890
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75439,6 +74758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &208459573744224400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76195,6 +75515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &686075752802525839
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76287,6 +75608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &686075752811527635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76379,6 +75701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4387078904251813432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76900,6 +76223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5552958643397605952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76992,6 +76316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5552958643057482485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77084,6 +76409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5552958644494495044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77176,6 +76502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5552958644633386372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77268,6 +76595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5552958644645235932
 BoxCollider:
   m_ObjectHideFlags: 0

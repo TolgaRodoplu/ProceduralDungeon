@@ -9,8 +9,8 @@ public class Generate : MonoBehaviour
     int roomCount = 6;    // Number of rooms to be placed
     int[] roomsPlaced;    // Rooms that are already placed
     Room[] roomsTree;
-    int height = 40;
-    int width = 40;
+    int height = 30;
+    int width = 30;
     int[,] map;           // map[-Z][X]
     int hallwayMark = -1;
     Vector2Int startPoint, endPoint;
@@ -41,122 +41,135 @@ public class Generate : MonoBehaviour
             roomsTree[i] = null;
 
         SpawnRooms();
-
-
         StartPathFind();
-
-
-        
 
         for (int i = 0; i < height; i++)
         {
             for (int j = 0; j < width; j++)
             {
-                if(map[i, j] < 0) //if regular hallway
+                if(map[i, j] < 0 || map[i, j] == 2)
                 {
-                    Instantiate(Resources.Load("Hallway"), new Vector3(j * 5, 0, i * -5), Quaternion.identity);
+                    Vector2Int currentPoint = new Vector2Int(i, j);
 
-                    if (IsValidPoint(new Vector2Int(i - 1, j))) //top 
-                    {
-                        if(map[i - 1, j] == 0 || map[i - 1, j] == 1 || map[i - 1, j] == 4)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
-                        }
-                        
-                    }
+                    if (IsIsolatedPoint(currentPoint))
+                        SceneManager.LoadScene("Test");
                     else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+                        PlaceHallway(currentPoint);
 
-
-                    if (IsValidPoint(new Vector2Int(i + 1, j))) //bottom
-                    {
-                        if (map[i + 1, j] == 0 || map[i + 1, j] == 1 || map[i + 1, j] == 4)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
-                        }
-                        
-                    }
-                    else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
-
-                    if (IsValidPoint(new Vector2Int(i, j + 1)) ) //right
-                    {
-                        if (map[i, j + 1] == 0 || map[i, j + 1] == 1 || map[i, j + 1] == 4)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
-                        }
-                        
-                    }
-                    else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
-
-                    if (IsValidPoint(new Vector2Int(i, j - 1))) //left 
-                    {
-                        if (map[i, j - 1] == 0 || map[i, j - 1] == 1 || map[i, j - 1] == 4)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
-                        }
-                        
-                    }
-                    else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
                 }
+            }
+        }
 
-                else if(map[i, j] == 2) //if it is a gate
-                {
-                    Debug.Log("GateFound");
-                    Instantiate(Resources.Load("Hallway"), new Vector3(j * 5, 0, i * -5), Quaternion.identity);
 
-                    if (IsValidPoint(new Vector2Int(i - 1, j))) //top 
-                    {
-                        if (map[i - 1, j] == 0 || map[i - 1, j] == 1)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
-                        }
+        //for (int i = 0; i < height; i++)
+        //{
+        //    for (int j = 0; j < width; j++)
+        //    {
+        //        if(map[i, j] < 0) //if regular hallway
+        //        {
+        //            Instantiate(Resources.Load("Hallway"), new Vector3(j * 5, 0, i * -5), Quaternion.identity);
+
+        //            if (IsValidPoint(new Vector2Int(i - 1, j))) //top 
+        //            {
+        //                if(map[i - 1, j] == 0 || map[i - 1, j] == 1 || map[i - 1, j] == 4)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+        //                }
                         
-                    }
-                    else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
 
-                    if (IsValidPoint(new Vector2Int(i + 1, j))) //bottom
-                    {
-                        if (map[i + 1, j] == 0 || map[i + 1, j] == 1)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
-                        }
-                        
-                    }
-                    else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
 
-                    if (IsValidPoint(new Vector2Int(i, j + 1))) //right
-                    {
-                        if (map[i, j + 1] == 0 || map[i, j + 1] == 1)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
-                        }
+        //            if (IsValidPoint(new Vector2Int(i + 1, j))) //bottom
+        //            {
+        //                if (map[i + 1, j] == 0 || map[i + 1, j] == 1 || map[i + 1, j] == 4)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
+        //                }
                         
-                    }
-                    else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
 
-                    if (IsValidPoint(new Vector2Int(i, j - 1))) //left 
-                    {
-                        if (map[i, j - 1] == 0 || map[i, j - 1] == 1)
-                        {
-                            Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
-                        }
+        //            if (IsValidPoint(new Vector2Int(i, j + 1)) ) //right
+        //            {
+        //                if (map[i, j + 1] == 0 || map[i, j + 1] == 1 || map[i, j + 1] == 4)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+        //                }
                         
-                    }
-                    else
-                        Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
-                }
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+
+        //            if (IsValidPoint(new Vector2Int(i, j - 1))) //left 
+        //            {
+        //                if (map[i, j - 1] == 0 || map[i, j - 1] == 1 || map[i, j - 1] == 4)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
+        //                }
+                        
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
+        //        }
+
+        //        else if(map[i, j] == 2) //if it is a gate
+        //        {
+        //            Debug.Log("GateFound");
+        //            Instantiate(Resources.Load("Hallway"), new Vector3(j * 5, 0, i * -5), Quaternion.identity);
+
+        //            if (IsValidPoint(new Vector2Int(i - 1, j))) //top 
+        //            {
+        //                if (map[i - 1, j] == 0 || map[i - 1, j] == 1)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+        //                }
+                        
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) + 2.5f), Quaternion.Euler(0, 0, 0));
+
+        //            if (IsValidPoint(new Vector2Int(i + 1, j))) //bottom
+        //            {
+        //                if (map[i + 1, j] == 0 || map[i + 1, j] == 1)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
+        //                }
+                        
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3(j * 5, 0, (i * -5) - 2.5f), Quaternion.Euler(0, 180, 0));
+
+        //            if (IsValidPoint(new Vector2Int(i, j + 1))) //right
+        //            {
+        //                if (map[i, j + 1] == 0 || map[i, j + 1] == 1)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+        //                }
+                        
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) + 2.5f, 0, i * -5), Quaternion.Euler(0, 90, 0));
+
+        //            if (IsValidPoint(new Vector2Int(i, j - 1))) //left 
+        //            {
+        //                if (map[i, j - 1] == 0 || map[i, j - 1] == 1)
+        //                {
+        //                    Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
+        //                }
+                        
+        //            }
+        //            else
+        //                Instantiate(Resources.Load("HallwayWall"), new Vector3((j * 5) - 2.5f, 0, i * -5), Quaternion.Euler(0, 270, 0));
+        //        }
                 
                     
-            }
+        //    }
 
             
-        }
+        //}
 
         for (int i = 0; i < height; i++)
         {
@@ -175,6 +188,73 @@ public class Generate : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void PlaceHallway(Vector2Int currentPoint)
+    {
+        Instantiate(Resources.Load("Hallway"), new Vector3(currentPoint.y * 5, 0, currentPoint.x * -5), Quaternion.identity);
+
+        Vector2Int[] neighbors = {
+                     new Vector2Int(-1, 0),  // Top 0
+                     new Vector2Int(0, 1),  // Right 1
+                     new Vector2Int(1, 0),  // Bottom 2
+                     new Vector2Int(0, -1) // Left 3
+                     };
+
+        for(int i = 0; i < neighbors.Length; i++)
+        {
+            Vector2Int neighborPoint = currentPoint + neighbors[i];
+
+            if(IsValidPoint(neighborPoint))
+            {
+                if(map[neighborPoint.x, neighborPoint.y] == 0 || map[neighborPoint.x, neighborPoint.y ] == 1)
+                {
+                    Instantiate(Resources.Load("HallwayWall"), Vector3GetPosition(currentPoint, i), QuaternionGetRotation(i));
+                    continue;
+                }
+                else if(map[neighborPoint.x, neighborPoint.y] == 4)
+                {
+                    if(map[currentPoint.x, currentPoint.y] != 2)
+                    {
+                        Instantiate(Resources.Load("HallwayWall"), Vector3GetPosition(currentPoint, i), QuaternionGetRotation(i));
+                        continue;
+                    }
+                }
+            }
+            else
+            {
+                Instantiate(Resources.Load("HallwayWall"), Vector3GetPosition(currentPoint, i), QuaternionGetRotation(i));
+                continue;
+            }
+
+
+
+        }
+
+        
+    }
+
+    private Vector3 Vector3GetPosition(Vector2Int point, int index) 
+    {
+        if (index == 0) //top
+            return new Vector3(point.y * 5, 0, (point.x * -5) + 2.5f);
+
+        else if (index == 1) //right
+            return new Vector3((point.y * 5) + 2.5f, 0, point.x * -5);
+
+        else if (index == 2) //bottom
+            return new Vector3(point.y * 5, 0, (point.x * -5) - 2.5f);
+
+        else if (index == 3)
+            return new Vector3((point.y * 5) - 2.5f, 0, point.x * -5);
+
+        else
+            return Vector3.zero;
+
+    }
+     
+    private Quaternion QuaternionGetRotation(int index) 
+    {
+        return Quaternion.Euler(0, index * 90, 0);
+    }
 
     void SpawnRooms()
     {
@@ -402,5 +482,29 @@ public class Generate : MonoBehaviour
         return point.x >= 0 && point.x < map.GetLength(0) && point.y >= 0 && point.y < map.GetLength(1);
     }
 
+    bool IsIsolatedPoint(Vector2Int currentPoint)
+    {
+        Vector2Int[] neighbors = {
+                     new Vector2Int(0, 1),  // Right
+                     new Vector2Int(0, -1), // Left
+                     new Vector2Int(-1, 0),  // Up
+                     new Vector2Int(1, 0)  // Down
+                     };
+
+        foreach (Vector2Int neighbor in neighbors)
+        {
+            Vector2Int neighborPoint = currentPoint + neighbor;
+            if (!IsValidPoint(neighborPoint))
+                continue;
+
+            // Check if the neighbor is within bounds and reachable
+            if (map[neighborPoint.x, neighborPoint.y] < 0 || map[neighborPoint.x, neighborPoint.y] == 2)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
 
 }

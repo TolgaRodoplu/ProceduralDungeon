@@ -84,7 +84,7 @@ public class Grabbable : Interactable
 
     private void OnDestroy()
     {
-        Uninteract();
+        
     }
 
     private void OnDisable()
