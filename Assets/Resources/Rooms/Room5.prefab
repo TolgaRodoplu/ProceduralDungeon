@@ -3138,6 +3138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1761469554762286674
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47161,6 +47162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: HoldPaper
+  cross: 
 --- !u!114 &4906405900676819641
 MonoBehaviour:
   m_ObjectHideFlags: 0

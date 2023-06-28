@@ -23,6 +23,7 @@ public class Teleport : MonoBehaviour
         if (playerController == null)
         {
             other.gameObject.transform.position = teleportPosSecond.position;
+            return;
         }
             
 
