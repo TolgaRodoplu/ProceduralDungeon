@@ -5,14 +5,22 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UI : MonoBehaviour
 {
+
     public GameObject canvas;
+
+    public Image cross;
+
+    public Sprite defaultCross, grabCross, handleCross;
 
     public static UI instance;
 
     [SerializeField] private TextMeshProUGUI subtitleText;
+
+   
 
     private void Awake()
     {
@@ -24,11 +32,10 @@ public class UI : MonoBehaviour
         subtitleText.text = subtitle;
     }
 
-    public bool SubtitleToggle(bool activate) 
+    public void SubtitleToggle(bool activate, string subtitle) 
     {
+        SetSubtitle(subtitle);
         subtitleText.gameObject.transform.parent.parent.gameObject.SetActive(activate);
-
-        return canvas.active;
     }
 
     public void ToggleCanvas(bool activate)
@@ -38,17 +45,17 @@ public class UI : MonoBehaviour
 
     public void ButtonHoverSound()
     {
-        EventSystem.instance.TriggerSound("ExplanationClip");
+        FindObjectOfType<AudioManeger>().Play("ExplenationClip");
     }
 
     public void NewGameButtonPressed()
     {
-        EventSystem.instance.TriggerSound("PaperRip");
+        FindObjectOfType<AudioManeger>().Play("PaperRip");
         SceneManager.LoadScene("Test");
     }
     public void QuitButtonPressed()
     {
-        EventSystem.instance.TriggerSound("PaperRip");
+        FindObjectOfType<AudioManeger>().Play("PaperRip");
         Application.Quit();
     }
 
@@ -56,6 +63,32 @@ public class UI : MonoBehaviour
     {
 
         SceneManager.LoadScene("Menu");
+    }
+
+    public void changeCrosshair(string newCross)
+    {
+        if (newCross != null)
+        {
+            if (newCross == "default")
+            {
+                cross.sprite = defaultCross;
+                cross.gameObject.GetComponent<RectTransform>().localScale = Vector3.one * 0.1f;
+            }
+            else
+            {
+                cross.gameObject.GetComponent<RectTransform>().localScale = Vector3.one * 0.7f;
+                if (newCross == "grab")
+                {
+                    cross.sprite = grabCross;
+                }
+                else if (newCross == "handle")
+                {
+                    cross.sprite = handleCross;
+                }
+            }
+
+        }
+        
     }
 
 }

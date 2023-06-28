@@ -16,7 +16,9 @@ public class Outro : MonoBehaviour
 
     private IEnumerator StartOntro()
     {
-        EventSystem.instance.TriggerSound("Outro");
+
+        FindObjectOfType<AudioManeger>().Stop("DungeonBackground");
+        FindObjectOfType<AudioManeger>().Play("Outro");
         int i = 0;
         while(i < texts.Length - 1)
         {

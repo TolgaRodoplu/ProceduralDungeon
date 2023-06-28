@@ -8,8 +8,11 @@ public class AudioManeger : MonoBehaviour
     //Array of sounds
     public Sound[] sounds;
 
+
     private void Awake()
     {
+        
+
         foreach(Sound s in sounds)
         {
             //Add audiosource component to the item
@@ -23,15 +26,12 @@ public class AudioManeger : MonoBehaviour
 
             s.source.loop = s.loop;
         }
+
     }
 
-    private void Start()
-    {
-        EventSystem.instance.soundTriggered += Play;
-        EventSystem.instance.soundStopped += Stop;
-    }
+    
 
-    public void Play(object sender, string name)
+    public void Play(string name)
     {
         //Find the sound with the given name
         Sound s = Array.Find(sounds, sound => sound.name == name);
@@ -45,7 +45,7 @@ public class AudioManeger : MonoBehaviour
         
     }
 
-    public void Stop(object sender, string name) 
+    public void Stop(string name) 
     {
         //Find the sound with the given name
         Sound s = Array.Find(sounds, sound => sound.name == name);

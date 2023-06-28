@@ -19,7 +19,8 @@ public class PuzzleTrigger : MonoBehaviour
             {
                 if (checkKey.keyID == keyID)
                 {
-                    EventSystem.instance.TriggerSound("PuzzleTrigger");
+
+                    FindObjectOfType<AudioManeger>().Play("PuzzleTrigger");
 
                     EventSystem.instance.TriggerPuzzle(puzzleID);
 

@@ -38,7 +38,8 @@ public class HeadBobController : MonoBehaviour
 
         if (yValue < Mathf.Sin(Time.time * frequency) && !stepped)
         {
-            EventSystem.instance.TriggerSound("FootStep");
+
+            FindObjectOfType<AudioManeger>().Play("FootStep"); ;
             stepped = true;
         }
         else if(yValue > Mathf.Sin(Time.time * frequency) && stepped)

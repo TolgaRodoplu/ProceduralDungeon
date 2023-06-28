@@ -4,14 +4,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Grabbable : MonoBehaviour, IInteractable
+public class Grabbable : Interactable
 {
     private Transform grabAnchor;
     private bool grabbed = false;
     private float maxDistance = 1f;
     private float xRot;
     private Rigidbody rb;
-    [SerializeField] private string soundEffect = null;
+    
 
 
 
@@ -20,10 +20,11 @@ public class Grabbable : MonoBehaviour, IInteractable
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Discrete;
+        cross = "grab";
         
     }
 
-    public void Interact(Transform interactor)
+    public override void Interact(Transform interactor)
     {
 
 

@@ -484,6 +484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6302956815795422347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -641,6 +642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1695253336054949326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -810,6 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4099391362211651857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4674,6 +4677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3012633872018837937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4955,6 +4959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5163913271044851661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5111,6 +5116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &3034336387557943689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5267,6 +5273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4892430516439399097
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5787,6 +5794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4172212180387857265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74590,6 +74598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2694926612873618498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74871,6 +74880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &859727440402354882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75235,6 +75245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &254526465590681306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75391,6 +75402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &377078863826093262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75673,6 +75685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4369833395767884274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75925,6 +75938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6301925515463687401
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79066,6 +79080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6993984791349117918
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81939,6 +81954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6036949225544934024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82359,6 +82375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &589129498785937680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82737,6 +82754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6760951405002092959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82906,6 +82924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &911363076953979598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83213,7 +83232,7 @@ GameObject:
   - component: {fileID: 7618380554615288774}
   - component: {fileID: 3454230927762453515}
   m_Layer: 6
-  m_Name: Black D Knight
+  m_Name: Black G Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83313,6 +83332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &1329597113580529283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83497,6 +83517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bb05331b325d14aac65fcef16af6f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffect: 
+  cross: 
   openClipName: DoorOpen
   closeClipName: DoorClose
 --- !u!54 &6220584879584005191
@@ -83632,6 +83654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &591263305274516926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84937,6 +84960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8029063561342126772
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85094,6 +85118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6295463186832639114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85388,6 +85413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &8003498151554170374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85669,6 +85695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &75721365069365841
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86076,6 +86103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5915696201581369088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -86607,6 +86635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &6146956128594099123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88640,6 +88669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &4617757075214278972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88758,6 +88788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: HoldPaper
+  cross: 
 --- !u!114 &9021839836555295193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98099,36 +98130,20 @@ MonoBehaviour:
   triggerCount: 0
   pieceOrder:
   - {fileID: 7232860394001516431}
-  - {fileID: 1873092604674561603}
-  - {fileID: 8962645877511111534}
-  - {fileID: 3550682165021708561}
+  - {fileID: 662013589767918853}
   - {fileID: 3500098727777435951}
-  - {fileID: 6225099320083379248}
-  - {fileID: 7232860394001516431}
-  - {fileID: 3550682165021708561}
+  - {fileID: 5312605718781891069}
   - {fileID: 5952678147698942780}
-  - {fileID: 6870923067348620255}
-  - {fileID: 7232860394001516431}
   - {fileID: 6045103313223470702}
-  - {fileID: 7232860394001516431}
-  - {fileID: 6045103313223470702}
-  - {fileID: 3500098727777435951}
+  - {fileID: 5952678147698942780}
   squareOrder:
   - {fileID: 4184269677545695214}
-  - {fileID: 216412959821193844}
-  - {fileID: 2038334468680065942}
-  - {fileID: 2318008340263479023}
-  - {fileID: 7092608632715342096}
-  - {fileID: 6380743214618844125}
-  - {fileID: 6380743214618844125}
-  - {fileID: 8566702178156745373}
+  - {fileID: 730285737507584972}
+  - {fileID: 6415159781144312849}
+  - {fileID: 8377741105638203682}
   - {fileID: 3368239566005228865}
-  - {fileID: 4704096101288208985}
-  - {fileID: 4704096101288208985}
   - {fileID: 2567016067735583812}
-  - {fileID: 2312292987896126895}
-  - {fileID: 3368239566005228865}
-  - {fileID: 4704096101288208985}
+  - {fileID: 4156754964566466816}
   pieces: {fileID: 2947464848850603769}
 --- !u!1 &8266392813108583566
 GameObject:
@@ -104632,6 +104647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &292960710637981006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107134,6 +107150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &5570845826854059858
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107416,6 +107433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &7165171814662846783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107710,6 +107728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEffect: 
+  cross: 
 --- !u!65 &2332887322953967076
 BoxCollider:
   m_ObjectHideFlags: 0

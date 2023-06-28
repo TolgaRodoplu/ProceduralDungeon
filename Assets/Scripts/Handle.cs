@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Handle : MonoBehaviour, IInteractable
+public class Handle : Interactable
 {
 
     private Animator animator;
@@ -12,15 +12,16 @@ public class Handle : MonoBehaviour, IInteractable
 
     [SerializeField] private string openClipName;
     [SerializeField] private string closeClipName;
+    
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
-        
+        cross = "handle";
     }
 
 
-    public void Interact(Transform interactor)
+    public override void Interact(Transform interactor)
     {
         if (!AnimatorIsPlaying())
         {
@@ -36,7 +37,8 @@ public class Handle : MonoBehaviour, IInteractable
             }
 
 
-            EventSystem.instance.TriggerSound("DoorClip");
+
+            FindObjectOfType<AudioManeger>().Play("DoorClip");
         }
         
     }

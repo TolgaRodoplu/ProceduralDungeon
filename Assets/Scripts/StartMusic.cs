@@ -8,7 +8,7 @@ public class StartMusic : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        EventSystem.instance.TriggerSound("DungeonBackground");
+        FindObjectOfType<AudioManeger>().Play("DungeonBackground");
     }
 
     

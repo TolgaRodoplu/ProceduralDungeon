@@ -11,8 +11,7 @@ public class PlayerController : MonoBehaviour
     public Transform playerCamera = null;
     private CharacterController controller = null;
 
-    [Header("Restraints")]
-    private bool canHeadBob = true;
+    
 
     [Header("Controls")]
     [SerializeField] private KeyCode interractKey = KeyCode.E;
@@ -34,7 +33,6 @@ public class PlayerController : MonoBehaviour
     private Vector2 currentMouseDelta = Vector2.zero;
     private Vector2 currentMouseDeltaVelocity = Vector2.zero;
 
-    private Outline outlinedObj = null;
 
     void Awake()
     {
@@ -55,13 +53,13 @@ public class PlayerController : MonoBehaviour
             MouseLook();
         }
 
-        Move();
 
+        Move();
 
         if (Input.GetKeyUp(interractKey) && active)
             UI.instance.ToggleCanvas(true);
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.F1))
         {
             UI.instance.ReturnToMenu();
         }
@@ -75,41 +73,31 @@ public class PlayerController : MonoBehaviour
         int layerMask = ~LayerMask.GetMask("Player");
 
 
+        string crossName = "default";
+        string subtitleText = null;
+        bool subtitleStatus = false;
 
         if (Physics.Raycast(ray, out hit, interractDistance, layerMask))
         {
             Debug.DrawLine(ray.origin, hit.point, Color.red);
             //Debug.Log(hit.transform.name);
-            IInteractable interactable = hit.transform.GetComponent<IInteractable>();
+            Interactable interactable = hit.transform.GetComponent<Interactable>();
 
             Subtitle explenation = hit.transform.transform.GetComponent<Subtitle>();
 
 
-
-            if (outlinedObj != null)
-            {
-                outlinedObj.enabled = false;
-                outlinedObj = null;
-            }
-            
-            outlinedObj = hit.transform.GetComponent<Outline>();
-
-            if (outlinedObj != null)
-            {
-                outlinedObj.enabled = true;
-            }
-                
-
             if (explenation != null)
             {
-                UI.instance.SetSubtitle(explenation.text);
-                UI.instance.SubtitleToggle(true);
+                subtitleStatus = true;
+                subtitleText = explenation.text;
             }
-            else
-                UI.instance.SubtitleToggle(false);
+            
 
             if (interactable != null)
             {
+                crossName = interactable.cross;
+
+
                 if (Input.GetKeyDown(interractKey))
                 {
                     isInteracting = true;
@@ -120,13 +108,10 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-        else
-        {
-            UI.instance.SubtitleToggle(false);
+        
 
-            if(outlinedObj!= null)
-                outlinedObj.enabled = false;
-        }
+        UI.instance.SubtitleToggle(subtitleStatus, subtitleText);
+        UI.instance.changeCrosshair(crossName);
     }
     private void MouseLook()
     {

@@ -16,7 +16,7 @@ public class AnimateObject : MonoBehaviour
     public void Animate()
     {
         if(soundEffect !=null) 
-            EventSystem.instance.TriggerSound(soundEffect);
+            FindObjectOfType<AudioManeger>().Play(soundEffect);
 
         animator.Play("Default", 0, 0.0f);
     }

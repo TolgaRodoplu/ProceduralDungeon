@@ -27,7 +27,7 @@ public class EventSystem : MonoBehaviour
 
     public void StartPlay()
     {
-        TriggerSound("DungeonBackground");
+        FindObjectOfType<AudioManeger>().Play("DungeonBackground");
         playStarted?.Invoke();
     }
 
@@ -41,13 +41,5 @@ public class EventSystem : MonoBehaviour
         animationTriggered?.Invoke(this, animationID);
     }
 
-    public void TriggerSound(string clip)
-    {
-        soundTriggered?.Invoke(this, clip);
-    }
-
-    public void StopSound(string clip)
-    {
-        soundStopped?.Invoke(this, clip);
-    }
+    
 }

@@ -16,9 +16,10 @@ public class Intro : MonoBehaviour
 
     private IEnumerator StartIntro()
     {
-        EventSystem.instance.StopSound("DungeonBackground");
-        EventSystem.instance.TriggerSound("Intro");
-        
+
+
+        FindObjectOfType<AudioManeger>().Play("Intro");
+
         yield return new WaitForSeconds(9.5f);
 
         Text1.SetActive(true);

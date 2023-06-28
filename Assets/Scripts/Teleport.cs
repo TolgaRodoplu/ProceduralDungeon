@@ -15,10 +15,17 @@ public class Teleport : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
+
         UI.instance.ToggleCanvas(!isEnterance);
 
         PlayerController playerController = other.GetComponent<PlayerController>();
- 
+
+        if (playerController == null)
+        {
+            other.gameObject.transform.position = teleportPosSecond.position;
+        }
+            
+
         if (isEnterance) 
         {
 
@@ -27,7 +34,7 @@ public class Teleport : MonoBehaviour
 
                 playerController.Deactivate();
                 playerController.playerCamera.rotation = Quaternion.Euler(-90, 0, 0);
-                Time.timeScale = 0.2f;
+                
             }
 
 
@@ -47,8 +54,8 @@ public class Teleport : MonoBehaviour
             {
                 if(!wonderlandLight.gameObject.activeInHierarchy)
                 {
-                    EventSystem.instance.TriggerSound("ForestBackground");
-                    EventSystem.instance.StopSound("DungeonBackground");
+                    FindObjectOfType<AudioManeger>().Play("ForestBackground");
+                    FindObjectOfType<AudioManeger>().Stop("DungeonBackground");
 
                     wonderlandLight.gameObject.SetActive(true);
                 }
@@ -61,8 +68,8 @@ public class Teleport : MonoBehaviour
             {
                 if (wonderlandLight.gameObject.activeInHierarchy)
                 {
-                    EventSystem.instance.TriggerSound("DungeonBackground");
-                    EventSystem.instance.StopSound("ForestBackground");
+                    FindObjectOfType<AudioManeger>().Play("DungeonBackground");
+                    FindObjectOfType<AudioManeger>().Stop("ForestBackground");
                     wonderlandLight.gameObject.SetActive(false);
                 }
 
