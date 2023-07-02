@@ -5,7 +5,7 @@ public class ReadFile
 {
     public static string ReaLine(string file, int row_id)
     {
-        StreamReader reader = new StreamReader(Application.dataPath + "/Resources/Data/" + file + ".txt");
+        StreamReader reader = new StreamReader(Application.dataPath + "/Resources/" + file + ".txt");
         bool endOfFile = false;
         int id = 0;
         string data = null;

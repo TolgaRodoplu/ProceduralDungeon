@@ -11,12 +11,6 @@ public class PlayerController : MonoBehaviour
     public Transform playerCamera = null;
     private CharacterController controller = null;
 
-    
-
-    [Header("Controls")]
-    [SerializeField] private KeyCode interractKey = KeyCode.E;
-
-
     [Header("Movement Parameters")]
     [SerializeField] private float walkSpeed = 1.0f;
     [SerializeField][Range(0.0f, 0.5f)] private float moveSmoothTime = 0.3f;
@@ -56,7 +50,7 @@ public class PlayerController : MonoBehaviour
 
         Move();
 
-        if (Input.GetKeyUp(interractKey) && active)
+        if (Input.GetKeyUp(KeyCode.Mouse0) && active)
             UI.instance.ToggleCanvas(true);
 
         if(Input.GetKeyDown(KeyCode.F1))
@@ -98,7 +92,7 @@ public class PlayerController : MonoBehaviour
                 crossName = interactable.cross;
 
 
-                if (Input.GetKeyDown(interractKey))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     isInteracting = true;
                     UI.instance.ToggleCanvas(false);

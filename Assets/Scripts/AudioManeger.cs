@@ -11,8 +11,6 @@ public class AudioManeger : MonoBehaviour
 
     private void Awake()
     {
-        
-
         foreach(Sound s in sounds)
         {
             //Add audiosource component to the item
@@ -26,7 +24,6 @@ public class AudioManeger : MonoBehaviour
 
             s.source.loop = s.loop;
         }
-
     }
 
     

@@ -11,8 +11,6 @@ public abstract class Subtitle : MonoBehaviour
 
     void Start()
     {
-        
-
         Set();
     }
 

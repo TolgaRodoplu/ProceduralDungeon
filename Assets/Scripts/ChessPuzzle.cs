@@ -11,8 +11,6 @@ public class ChessPuzzle : Puzzle
     [SerializeField] private Transform[] squareOrder;
 
     private Transform currentSquare, currentPiece;
-
-    [SerializeField] private Transform pieces;
     
     int moveCounter = 0;
 

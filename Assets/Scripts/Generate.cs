@@ -15,9 +15,6 @@ public class Generate : MonoBehaviour
     int hallwayMark = -1;
     Vector2Int startPoint, endPoint;
 
-    // Start is called before the first frame update
-
-
     private void Start()
     {
         map = new int[height, width];
@@ -41,6 +38,7 @@ public class Generate : MonoBehaviour
             roomsTree[i] = null;
 
         SpawnRooms();
+
         StartPathFind();
 
         for (int i = 0; i < height; i++)
@@ -171,18 +169,6 @@ public class Generate : MonoBehaviour
             
         //}
 
-        for (int i = 0; i < height; i++)
-        {
-            string row = null;
-            for (int j = 0; j < width; j++)
-            {
-                row = row + " " + map[i, j].ToString();
-            }
-            Debug.Log(row);
-        }
-
-        Debug.Log("pathFound!!!!!!!!!!!!!!!!!!!!!!!!!");
-
         intro.StartStartIntro();
 
         Destroy(gameObject);
@@ -224,12 +210,7 @@ public class Generate : MonoBehaviour
                 Instantiate(Resources.Load("HallwayWall"), Vector3GetPosition(currentPoint, i), QuaternionGetRotation(i));
                 continue;
             }
-
-
-
         }
-
-        
     }
 
     private Vector3 Vector3GetPosition(Vector2Int point, int index) 
@@ -262,7 +243,7 @@ public class Generate : MonoBehaviour
 
         while (cnt < roomCount)
         {
-            int selectedRoom = Random.Range(0, roomCount);
+            int selectedRoom = Random.Range(0, totalRoomNum);
 
             if (IsUsed(selectedRoom))
                 continue;
@@ -422,7 +403,6 @@ public class Generate : MonoBehaviour
             {
                 Debug.Log("No path found!");
                 break;
-                //SceneManager.LoadScene("Test", LoadSceneMode.Single);
             }
             if (map[nextPoint.x, nextPoint.y] != 2)
                 map[nextPoint.x, nextPoint.y] = hallwayMark;
@@ -440,12 +420,10 @@ public class Generate : MonoBehaviour
         hallwayMark--;
     }
 
-    // Finds the next point in the path
     Vector2Int FindNextPoint(Vector2Int currentPoint)
     {
         Vector2Int nextPoint = currentPoint;
 
-        // Check all neighboring points
         Vector2Int[] neighbors = {
             new Vector2Int(0, 1),  // Right
             new Vector2Int(0, -1), // Left
@@ -458,13 +436,10 @@ public class Generate : MonoBehaviour
         {
             Vector2Int neighborPoint = currentPoint + neighbor;
 
-            // Check if the neighbor is within bounds and reachable
-            if (IsValidPoint(neighborPoint) && map[neighborPoint.x, neighborPoint.y] != 1 && map[neighborPoint.x, neighborPoint.y] != hallwayMark && IsValidPoint(neighborPoint) && map[neighborPoint.x, neighborPoint.y] != 4)
+            if (IsValidPoint(neighborPoint) && map[neighborPoint.x, neighborPoint.y] != 1 && map[neighborPoint.x, neighborPoint.y] != hallwayMark && map[neighborPoint.x, neighborPoint.y] != 4)
             {
-                // Calculate the distance to the end point
                 int distance = Mathf.Abs(neighborPoint.x - endPoint.x) + Mathf.Abs(neighborPoint.y - endPoint.y);
 
-                // Update the next point if it has a shorter distance
                 if (distance < shortestDistance)
                 {
                     shortestDistance = distance;

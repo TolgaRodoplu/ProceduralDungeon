@@ -35,11 +35,9 @@ public class Teleport : MonoBehaviour
 
                 playerController.Deactivate();
                 playerController.playerCamera.rotation = Quaternion.Euler(-90, 0, 0);
+                Time.timeScale = 0.2f;
                 
             }
-
-
-
 
             other.gameObject.transform.position = teleportPos.position;
         }

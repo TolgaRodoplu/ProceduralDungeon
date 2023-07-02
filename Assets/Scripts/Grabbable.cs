@@ -20,7 +20,7 @@ public class Grabbable : Interactable
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.collisionDetectionMode = CollisionDetectionMode.Discrete;
-        if(GetComponent<Key>() != null )
+        if(GetComponent<Key>() == null )
             rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         cross = "grab";
         
@@ -32,6 +32,10 @@ public class Grabbable : Interactable
 
         if (grabAnchor == null)
             return;
+
+
+        if(rb.isKinematic)
+            rb.isKinematic = false;
 
         xRot = transform.rotation.eulerAngles.x;
 
@@ -47,7 +51,7 @@ public class Grabbable : Interactable
         grabbed = false;
         rb.useGravity = true;
         grabAnchor = null;
-        if (GetComponent<Key>() == null)
+        if (GetComponent<Key>() != null)
             rb.collisionDetectionMode = CollisionDetectionMode.Discrete;
 
     }
@@ -65,8 +69,6 @@ public class Grabbable : Interactable
 
     private void FixedUpdate()
     {
-
-
         if (grabbed)
         {
             Vector3 DirectionToPoint = grabAnchor.position - transform.position;
@@ -75,16 +77,10 @@ public class Grabbable : Interactable
 
             rb.velocity = DirectionToPoint * 50f * DistanceToPoint;
 
+            transform.rotation = Quaternion.Euler(xRot, grabAnchor.rotation.eulerAngles.y, grabAnchor.rotation.eulerAngles.z);
 
             rb.angularVelocity = Vector3.zero;
         }
-        
-
-    }
-
-    private void OnDestroy()
-    {
-        
     }
 
     private void OnDisable()
