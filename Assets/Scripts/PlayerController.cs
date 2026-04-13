@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         this.transform.parent = null;
-        EventSystem.instance.playStarted += Activate;
+        //EventSystem.instance.playStarted += Activate;
     }
 
     void Update()
@@ -50,13 +50,13 @@ public class PlayerController : MonoBehaviour
 
         Move();
 
-        if (Input.GetKeyUp(KeyCode.Mouse0) && active)
-            UI.instance.ToggleCanvas(true);
+        //if (Input.GetKeyUp(KeyCode.Mouse0) && active)
+        //    UI.instance.ToggleCanvas(true);
 
-        if(Input.GetKeyDown(KeyCode.F1))
-        {
-            UI.instance.ReturnToMenu();
-        }
+        //if(Input.GetKeyDown(KeyCode.F1))
+        //{
+        //    UI.instance.ReturnToMenu();
+        //}
     }
 
     private void InterractWithObject()
@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     isInteracting = true;
-                    UI.instance.ToggleCanvas(false);
+                    //UI.instance.ToggleCanvas(false);
                     interactable.Interact(this.transform);
 
                     
@@ -104,8 +104,8 @@ public class PlayerController : MonoBehaviour
         }
         
 
-        UI.instance.SubtitleToggle(subtitleStatus, subtitleText);
-        UI.instance.changeCrosshair(crossName);
+        //UI.instance.SubtitleToggle(subtitleStatus, subtitleText);
+        //UI.instance.changeCrosshair(crossName);
     }
     private void MouseLook()
     {
