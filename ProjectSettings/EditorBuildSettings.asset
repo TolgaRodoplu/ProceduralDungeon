@@ -14,4 +14,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Outro.unity
     guid: f1c828b4a0e2df04a9bec06d8fdc4a3e
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a7518aa64a376dc4dacdb1f1179e55ff, type: 2}
